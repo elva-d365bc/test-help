@@ -79,8 +79,8 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="key-usage-scenarios">Key Usage Scenarios</h1>
 
-<h2 id="walkthrough-create-evaluation-company">Walkthrough: Create evaluation company</h2>
-<p><strong>About this walkthrough</strong>: An evaluation company is to be created, in order to try Latvian Cash Management Localization.</p>
+<h2 id="walkthrough-create-evaluation-company-and-import-configuration-package">Walkthrough: Create evaluation company and import configuration package</h2>
+<p><strong>About this walkthrough</strong>: Configuration package LVI.LVI.CASH is to be imported into an evaluation company, in order to check the setup.</p>
 <p><strong>Roles</strong>: No specific user roles are required.</p>
 <p><strong>Story</strong>: You are John Roberts managing director of Cronus International. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
 Cronus International is required to carry out transactions with petty cash according to Latvia local requirements. You are assigned to test the settings on an evaluation company before adding the settings into your company.</p>
@@ -100,13 +100,32 @@ Cronus International is required to carry out transactions with petty cash accor
 <li>In My Settings, select your evaluation company
 <img src="images/cash_eval004.png" alt="alt"></li>
 </ol>
+<h3 id="configuration-package-import">Configuration package import</h3>
+<p>Basic necessary system setup for the use of Latvian Cash Management Localization is created, when applying the configuration package LVI.LVI.CASH  .</p>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/cash_search.png" alt="alt"></li>
+<li>Type Configuration Packages and select Configuration Packages from Lists
+<img src="images/cash_conf001.png" alt="alt"></li>
+<li>Select LVI.LVI.CASH package from list of Config. Packages and press Apply Package.
+<img src="images/cash_conf002.png" alt="alt"></li>
+</ol>
+<p>Configuration package ensures the following information:</p>
+<ol>
+<li>General Journal Template (KASESGRAM)</li>
+<li>Source Code (CASHBOOK)</li>
+<li>General Journal Batch (IENEMUMI for cash income, IZDEVUMI for cash payments)</li>
+<li>Source Code Setup</li>
+<li>No.Series (KIO, KZO)</li>
+<li>No.Series Lines (for KIO, KZO)</li>
+</ol>
 <h2 id="walkthrough-how-to-set-up-cash-book-journal-batches">Walkthrough: How to set up Cash Book Journal batches</h2>
 <p><strong>About this walkthrough</strong>: Cash Income Orders and Cash Payment Orders require to have separate Cash Book Journal batches.</p>
 <p><strong>Roles</strong>: No specific user roles are required.</p>
 <p><strong>Story</strong>: You are John Roberts managing director of Cronus International. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
 Cronus International is required to carry out transactions with petty cash according to Latvia local requirements. You are assigned to create cash book journal separate batches for Cash Income Orders and Cash Payment Orders.</p>
 <p><strong>Prerequisite</strong>:
-The following information should be completed:</p>
+The following information should be completed after importing configuration package:</p>
 <ul>
 <li>Review employee card, who is responsible for Petty Cash</li>
 <li>Review Company Information</li>
@@ -171,91 +190,38 @@ The following information should be completed:</p>
 </ul>
 </li>
 </ul>
-<h3 id="create-new-noseries">Create New No.Series</h3>
+<h3 id="create-new-batches-for-cash-book-journals">Create New Batches for Cash Book Journals</h3>
 <ol>
 <li>Click on the button Search for Page or Report...
 <img src="images/cash_search.png" alt="alt"></li>
-<li>Type No.Series
-<img src="images/cash_series001.png" alt="alt"></li>
-<li>Press New, in order to create new No. Series
-<img src="images/cash_series002.png" alt="alt"></li>
-<li>Complete the fields
+<li>Type Cash Book Journals and select Cash Book Journals from Tasks and select template CASHBOOK
+<img src="images/cash_journal001.png" alt="alt">
+<img src="images/cash_use_templ001.png" alt="alt"></li>
+<li>Open Cash Book Journal batches
+<img src="images/cash_journal002.png" alt="alt"></li>
+<li>Create New Cash Book Journal Batches for Cash Income Orders (IENEMUMI) and create New Cash Book Journal for Cash Payment Orders (IZDEVUMI)</li>
+<li>Complete Name, Description of new Cash Book Journal Batches</li>
+<li>Review that Balancing Account Type is set to Bank Account,</li>
+<li>Set Balancing Account No. to Bank Account used for Petty Cash - CASH</li>
+<li>Set No. Series per each Cash Book Journal Batch
 <ul>
-<li>Code - CASH-RCPT</li>
-<li>Description - Cash Receipt</li>
-<li>Default Nos. - insert checkmark</li>
-</ul>
-</li>
-<li>Select CASH-RCPT, press Lines
-<img src="images/cash_series003.png" alt="alt"></li>
-<li>Complete fields
-<ul>
-<li>Starting No. - enter KIO000001</li>
-<li>Increment By No. - enter 1</li>
+<li>KIO for cash income orders</li>
+<li>KZO for cash payment orders
+<img src="images/cash_use_batch001.png" alt="alt"></li>
 </ul>
 </li>
 </ol>
-<p><img src="images/cash_series004.png" alt="alt"></p>
-<ol start="7">
-<li>Press New, in order to create new No. Series</li>
-</ol>
-<p><img src="images/cash_series002.png" alt="alt">
-8.  Complete the fields
--   Code - CASH-PMT
--   Description - Cash Payment
--   Default Nos. - insert checkmark
-9.  Select CASH-PMT, press Lines
-<img src="images/cash_series005.png" alt="alt">
-10.  Complete fields
--   Starting No. - enter KZO000001
--   Increment By No. - enter 1
-<img src="images/cash_series006.png" alt="alt"></p>
-<h3 id="create-new-batches-for-cash-book-journals">Create New Batches for Cash Book Journals</h3>
-<ol>
-<li><p>Click on the button Search for Page or Report...
-<img src="images/cash_search.png" alt="alt"></p>
-</li>
-<li><p>Type Cash Book Journals and select Cash Book Journals from Tasks
-<img src="images/cash_journal001.png" alt="alt"></p>
-</li>
-<li><p>Open Cash Book Journal batches
-<img src="images/cash_journal002.png" alt="alt"></p>
-</li>
-<li><p>Create New Cash Book Journal Batches for Cash Income Orders (RECEIPT) and create New Cash Book Journal for Cash Payment Orders (PAYMENT)</p>
-</li>
-<li><p>Complete Name, Description of new Cash Book Journal Batches</p>
-<ul>
-<li>Name - RECEIPT</li>
-<li>Description - Cash Receipts</li>
-<li>Name - PAYMENT</li>
-<li>Description- Cash Payments</li>
-</ul>
-</li>
-<li><p>Review that Balancing Account Type is set to Bank Account</p>
-</li>
-<li><p>Set Balancing Account No. to Bank Account used for Petty Cash - CASH</p>
-</li>
-<li><p>Set No. Series per each Cash Book Journal Batch</p>
-<ul>
-<li>CASH-RCPT for cash income orders</li>
-<li>CASH-PMT for cash payment orders</li>
-</ul>
-</li>
-</ol>
-<p><img src="images/cash_use_batch001.png" alt="alt"></p>
 <h3 id="create-cash-income-order">Create Cash Income Order</h3>
 <ol>
-<li><p>Click on the button Search for Page or Report...
-<img src="images/cash_search.png" alt="alt"></p>
-</li>
-<li><p>Type Cash Book Journals and select Cash Book Journals from Tasks
-<img src="images/cash_journal001.png" alt="alt"></p>
-</li>
-<li><p>Open Cash Book Journal batches and select RECEIPT
+<li>Click on the button Search for Page or Report...
+<img src="images/cash_search.png" alt="alt"></li>
+<li>Type Cash Book Journals and select Cash Book Journals from Tasks and select template CASHBOOK
+<img src="images/cash_journal001.png" alt="alt">
+<img src="images/cash_use_templ001.png" alt="alt"></li>
+<li>Open Cash Book Journal batches and select IENEMUMI
 <img src="images/cash_journal002.png" alt="alt">
-<img src="images/cash_use_income001.png" alt="alt"></p>
-</li>
-<li><p>Create Cash Income Order by completing the following fields:</p>
+<img src="images/cash_use_income001.png" alt="alt"></li>
+<li>Create Cash Income Order by completing the following fields:
 <ul>
 <li>Posting Date - 06.04.2020</li>
 <li>Document Type - Payment</li>
@@ -271,31 +237,29 @@ The following information should be completed:</p>
 <img src="images/cash_use_income002.png" alt="alt"></li>
 </ul>
 </li>
-<li><p>Press Print Cash Income Order in the Ribbon
-<img src="images/cash_use_income003.png" alt="alt"></p>
-</li>
-<li><p>Complete printing options</p>
+<li>Press Print Cash Income Order in the Ribbon
+<img src="images/cash_use_income003.png" alt="alt"></li>
+<li>Complete printing options
 <ul>
 <li>Journal Template Name - CASH BOOK</li>
-<li>Journal Batch Name - RECEIPT</li>
-<li>Line No. - 10000</li>
+<li>Journal Batch Name - IENEMUMI</li>
+<li>Line No. - 10000
+<img src="images/cash_use_income004.png" alt="alt"></li>
 </ul>
 </li>
+<li>Review Cash Income Order Printout</li>
 </ol>
-<p><img src="images/cash_use_income004.png" alt="alt">
-7. Review Cash Income Order Printout</p>
-<p><img src="images/cash_use_income005.png" alt="alt"></p>
-<ol start="8">
-<li>Press Post, in order to register cash income order
-<img src="images/cash_use_income006.png" alt="alt"></li>
-</ol>
+<p><img src="images/cash_use_income005.png" alt="alt">
+8. Press Post, in order to register cash income order
+<img src="images/cash_use_income006.png" alt="alt"></p>
 <h3 id="create-cash-payment-order">Create Cash Payment Order</h3>
 <ol>
 <li>Click on the button Search for Page or Report...
 <img src="images/cash_search.png" alt="alt"></li>
-<li>Type Cash Book Journals and select Cash Book Journals from Tasks
-<img src="images/cash_journal001.png" alt="alt"></li>
-<li>Open Cash Book Journal batches and select PAYMENT
+<li>Type Cash Book Journals and select Cash Book Journals from Tasks and select template CASHBOOK
+<img src="images/cash_journal001.png" alt="alt">
+<img src="images/cash_use_templ001.png" alt="alt"></li>
+<li>Open Cash Book Journal batches and select IZDEVUMI
 <img src="images/cash_journal002.png" alt="alt">
 <img src="images/cash_use_payment001.png" alt="alt"></li>
 <li>Create Cash Payment Order by completing the following fields:
@@ -319,16 +283,14 @@ The following information should be completed:</p>
 <li>Complete printing options
 <ul>
 <li>Journal Template Name - CASH BOOK</li>
-<li>Journal Batch Name - PAYMENT</li>
+<li>Journal Batch Name - IZDEVUMI</li>
 <li>Line No. - 10000</li>
 </ul>
 </li>
 </ol>
-<p><img src="images/cash_use_payment004.png" alt="alt"></p>
-<ol start="7">
-<li>Review Cash Payment Order Printout</li>
-</ol>
-<p><img src="images/cash_use_payment005.png" alt="alt">
+<p><img src="images/cash_use_payment004.png" alt="alt">
+7. Review Cash Payment Order Printout
+<img src="images/cash_use_payment005.png" alt="alt">
 8. Press Post, in order to register cash payment order
 <img src="images/cash_use_payment006.png" alt="alt"></p>
 <h3 id="print-cash-book-report">Print Cash Book report</h3>
@@ -355,7 +317,7 @@ The following information should be completed:</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/elva-bc-projects/Test-Help/_git/Test-Help?path=en-us/articles/cash_management/usage_scenarios.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://dev.azure.com/elva-bc-projects/Test-Help/_git/Test-Help?path=lv-lv/articles/cash_management/usage_scenarios.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
