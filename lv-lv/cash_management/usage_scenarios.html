@@ -1,0 +1,350 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Key Usage Scenarios | Latvian Localization </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Key Usage Scenarios | Latvian Localization ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../.././images/elva_logo.jpg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="key-usage-scenarios">Key Usage Scenarios</h1>
+
+<h2 id="walkthrough-create-evaluation-company-and-import-configuration-package">Walkthrough: Create evaluation company and import configuration package</h2>
+<p><strong>About this walkthrough</strong>: Configuration package LVI.LVI.CASH is to be imported into an evaluation company, in order to check the setup.</p>
+<p><strong>Roles</strong>: No specific user roles are required.</p>
+<p><strong>Story</strong>: You are John Roberts managing director of Cronus International. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+Cronus International is required to carry out transactions with petty cash according to Latvia local requirements. You are assigned to test the settings on an evaluation company before adding the settings into your company.</p>
+<p><strong>Availability:</strong> can be accessed from Search for Page or Report…</p>
+<p><strong>Pre-requisites:</strong> No pre-requisites required</p>
+<h3 id="create-evaluation-company">Create Evaluation Company</h3>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/cash_search.png" alt="alt"></li>
+<li>Type Companies and select Companies from Lists
+<img src="images/cash_eval001.png" alt="alt"></li>
+<li>Press New,  select Create New Company, press Next
+<img src="images/cash_eval002.png" alt="alt"></li>
+<li>Enter company name, for example, CASH-EVALUATION; set Evaluation-Sample Data in field Select the Data and Setup to Get Started
+<img src="images/cash_eval003.png" alt="alt"></li>
+<li>Press Next, Next, Finish</li>
+<li>In My Settings, select your evaluation company
+<img src="images/cash_eval004.png" alt="alt"></li>
+</ol>
+<h3 id="configuration-package-import">Configuration package import</h3>
+<p>Basic necessary system setup for the use of Latvian Cash Management Localization is created, when applying the configuration package LVI.LVI.CASH  .</p>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/cash_search.png" alt="alt"></li>
+<li>Type Configuration Packages and select Configuration Packages from Lists
+<img src="images/cash_conf001.png" alt="alt"></li>
+<li>Select LVI.LVI.CASH package from list of Config. Packages and press Apply Package.
+<img src="images/cash_conf002.png" alt="alt"></li>
+</ol>
+<p>Configuration package ensures the following information:</p>
+<ol>
+<li>General Journal Template (KASESGRAM)</li>
+<li>Source Code (CASHBOOK)</li>
+<li>General Journal Batch (IENEMUMI for cash income, IZDEVUMI for cash payments)</li>
+<li>Source Code Setup</li>
+<li>No.Series (KIO, KZO)</li>
+<li>No.Series Lines (for KIO, KZO)</li>
+</ol>
+<h2 id="walkthrough-how-to-set-up-cash-book-journal-batches">Walkthrough: How to set up Cash Book Journal batches</h2>
+<p><strong>About this walkthrough</strong>: Cash Income Orders and Cash Payment Orders require to have separate Cash Book Journal batches.</p>
+<p><strong>Roles</strong>: No specific user roles are required.</p>
+<p><strong>Story</strong>: You are John Roberts managing director of Cronus International. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+Cronus International is required to carry out transactions with petty cash according to Latvia local requirements. You are assigned to create cash book journal separate batches for Cash Income Orders and Cash Payment Orders.</p>
+<p><strong>Prerequisite</strong>:
+The following information should be completed after importing configuration package:</p>
+<ul>
+<li>Review employee card, who is responsible for Petty Cash</li>
+<li>Review Company Information</li>
+<li>Create New Bank Account Card per each Petty Cash location</li>
+</ul>
+<h3 id="review-employee-card">Review Employee card</h3>
+<p>Proceed with following detailed steps:</p>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/cash_search.png" alt="alt"></li>
+<li>Type Employee and select Employees from Pages and Tasks
+<img src="images/cash_emp001.png" alt="alt"></li>
+<li>Open John Roberts employee card who is responsible for petty cash transactions, in order to review that name, surname, title fields are completed
+<img src="images/cash_use_empl001.png" alt="alt"></li>
+</ol>
+<h3 id="review-company-information">Review Company Information</h3>
+<ol>
+<li><p>Click on the button Search for Page or Report...
+<img src="images/cash_search.png" alt="alt"></p>
+</li>
+<li><p>Type Company Information and select Company Information from Pages and Tasks
+<img src="images/cash_comp001.png" alt="alt"></p>
+</li>
+<li><p>Review Company Information is completed:</p>
+<ul>
+<li>Name</li>
+<li>Address -</li>
+<li>Post Code</li>
+<li>Country</li>
+<li>Registration No. - copy the VAT registration number and set it as Registration No.</li>
+<li>VAT Registration No.</li>
+</ul>
+</li>
+</ol>
+<p><img src="images/cash_use_info001.png" alt="alt"></p>
+<h3 id="review-bank-account-posting-group-for-petty-cash-is-created">Review Bank Account Posting Group for Petty Cash is created</h3>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/cash_search.png" alt="alt"></li>
+<li>Enter Bank Account Posting Groups and then choose the related link.
+<img src="images/cash_bank001.png" alt="alt"></li>
+<li>Bank account posting group CASH is to be used for petty cash and it has an assigned G/L Account.
+<img src="images/cash_use_bpg001.png" alt="alt"></li>
+</ol>
+<h3 id="create-new-bank-account-card-for-petty-cash-and-register-cash-income-order-and-cash-payment-order-print-cash-book">Create New Bank Account Card for Petty Cash and register Cash Income Order and Cash Payment Order, Print Cash Book</h3>
+<ul>
+<li>Click on the button Search for Page or Report...
+<img src="images/cash_search.png" alt="alt"></li>
+<li>Type Bank Accounts and select Bank Accounts from Pages and Tasks
+<img src="images/cash_bank004.png" alt="alt"></li>
+<li>Press New, in order to create New Bank Account card per Petty Cash location
+<img src="images/cash_bank005.png" alt="alt"></li>
+<li>Complete Bank Account Card information with
+<ul>
+<li>No. - CASH</li>
+<li>Name - Petty Cash Riga</li>
+<li>Bank Account Posting Group - CASH</li>
+<li>Account Type- select <em>Cash Desk</em></li>
+<li>Cashier No.- select AH</li>
+<li>Accountant No. - select JR
+<img src="images/cash_use_bank001.png" alt="alt"></li>
+</ul>
+</li>
+</ul>
+<h3 id="create-new-batches-for-cash-book-journals">Create New Batches for Cash Book Journals</h3>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/cash_search.png" alt="alt"></li>
+<li>Type Cash Book Journals and select Cash Book Journals from Tasks and select template CASHBOOK
+<img src="images/cash_journal001.png" alt="alt">
+<img src="images/cash_use_templ001.png" alt="alt"></li>
+<li>Open Cash Book Journal batches
+<img src="images/cash_journal002.png" alt="alt"></li>
+<li>Create New Cash Book Journal Batches for Cash Income Orders (IENEMUMI) and create New Cash Book Journal for Cash Payment Orders (IZDEVUMI)</li>
+<li>Complete Name, Description of new Cash Book Journal Batches</li>
+<li>Review that Balancing Account Type is set to Bank Account,</li>
+<li>Set Balancing Account No. to Bank Account used for Petty Cash - CASH</li>
+<li>Set No. Series per each Cash Book Journal Batch
+<ul>
+<li>KIO for cash income orders</li>
+<li>KZO for cash payment orders
+<img src="images/cash_use_batch001.png" alt="alt"></li>
+</ul>
+</li>
+</ol>
+<h3 id="create-cash-income-order">Create Cash Income Order</h3>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/cash_search.png" alt="alt"></li>
+<li>Type Cash Book Journals and select Cash Book Journals from Tasks and select template CASHBOOK
+<img src="images/cash_journal001.png" alt="alt">
+<img src="images/cash_use_templ001.png" alt="alt"></li>
+<li>Open Cash Book Journal batches and select IENEMUMI
+<img src="images/cash_journal002.png" alt="alt">
+<img src="images/cash_use_income001.png" alt="alt"></li>
+<li>Create Cash Income Order by completing the following fields:
+<ul>
+<li>Posting Date - 06.04.2020</li>
+<li>Document Type - Payment</li>
+<li>Account Type - Customer</li>
+<li>Account No. - 20000</li>
+<li>Description - &quot;Invoice 102169&quot;</li>
+<li>Person Name - Helen Ray</li>
+<li>Person Identity No. - 1134</li>
+<li>Person Identity Doc. No - ID1111</li>
+<li>Amount &quot;-625,50&quot;</li>
+<li>Bal. Account Type - Bank Account</li>
+<li>Bal. Account No.- CASH
+<img src="images/cash_use_income002.png" alt="alt"></li>
+</ul>
+</li>
+<li>Press Print Cash Income Order in the Ribbon
+<img src="images/cash_use_income003.png" alt="alt"></li>
+<li>Complete printing options
+<ul>
+<li>Journal Template Name - CASH BOOK</li>
+<li>Journal Batch Name - IENEMUMI</li>
+<li>Line No. - 10000
+<img src="images/cash_use_income004.png" alt="alt"></li>
+</ul>
+</li>
+<li>Review Cash Income Order Printout</li>
+</ol>
+<p><img src="images/cash_use_income005.png" alt="alt">
+8. Press Post, in order to register cash income order
+<img src="images/cash_use_income006.png" alt="alt"></p>
+<h3 id="create-cash-payment-order">Create Cash Payment Order</h3>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/cash_search.png" alt="alt"></li>
+<li>Type Cash Book Journals and select Cash Book Journals from Tasks and select template CASHBOOK
+<img src="images/cash_journal001.png" alt="alt">
+<img src="images/cash_use_templ001.png" alt="alt"></li>
+<li>Open Cash Book Journal batches and select IZDEVUMI
+<img src="images/cash_journal002.png" alt="alt">
+<img src="images/cash_use_payment001.png" alt="alt"></li>
+<li>Create Cash Payment Order by completing the following fields:
+<ul>
+<li>Posting Date - 06.04.2020</li>
+<li>Document Type - Payment</li>
+<li>Account Type - Vendor</li>
+<li>Account No. - 30000</li>
+<li>Description - &quot;Invoice 107204&quot;</li>
+<li>Person Name - Bryce Jasso</li>
+<li>Person Identity No. - 1234</li>
+<li>Person Identity Doc. No - ID2222</li>
+<li>Amount &quot;444,80&quot;</li>
+<li>Bal. Account Type - Bank Account</li>
+<li>Bal. Account No.- CASH
+<img src="images/cash_use_payment002.png" alt="alt"></li>
+</ul>
+</li>
+<li>Press Print Cash Payment Order in the Ribbon
+<img src="images/cash_payment001.png" alt="alt"></li>
+<li>Complete printing options
+<ul>
+<li>Journal Template Name - CASH BOOK</li>
+<li>Journal Batch Name - IZDEVUMI</li>
+<li>Line No. - 10000</li>
+</ul>
+</li>
+</ol>
+<p><img src="images/cash_use_payment004.png" alt="alt">
+7. Review Cash Payment Order Printout
+<img src="images/cash_use_payment005.png" alt="alt">
+8. Press Post, in order to register cash payment order
+<img src="images/cash_use_payment006.png" alt="alt"></p>
+<h3 id="print-cash-book-report">Print Cash Book report</h3>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/cash_search.png" alt="alt"></li>
+<li>Type Cash Book and select Cash Book from Reports and Analysis
+<img src="images/cash_book001.png" alt="alt"></li>
+<li>Set the following printout option
+<ul>
+<li>Report No. - &quot;06.04.2020&quot;</li>
+<li>Bank No. - &quot;CASH&quot;</li>
+<li>Date filter - &quot;06.04.2020&quot;
+<img src="images/cash_use_book001.png" alt="alt">
+<img src="images/cash_use_book002.png" alt="alt"></li>
+</ul>
+</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/elva-bc-projects/Test-Help/_git/Test-Help?path=lv-lv/articles/cash_management/usage_scenarios.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © ELVA BALTIC
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
