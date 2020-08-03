@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Darba uzs&#257;k&#353;ana | Latvian Localization </title>
+    <title>Get started | Latvian Localization </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Darba uzs&#257;k&#353;ana | Latvian Localization ">
+    <meta name="title" content="Get started | Latvian Localization ">
     <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -77,536 +77,530 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="darba-uzsākšana">Darba uzsākšana</h1>
+<h1 id="get-started">Get started</h1>
 
-<h2 id="lomu-centrs">Lomu centrs</h2>
-<p>Lai sāktu lietot Latvian VAT Reporting Localization, nav nepieciešami specifiski lomu centri, jo funkcionalitāte ir pieejama izmantojot Meklēšana funkciju.</p>
-<h2 id="konfigurācijas-pakotnes-importēšana">Konfigurācijas pakotnes importēšana</h2>
-<p><strong>Piezīme</strong></p>
-<p>Konfigurācijas pakotne LV.LVI.VAT var tikt importēta tikai tad, ja sistēmā ir jau attiecināta LV.LVI.STANDARD konfigurācijas pakotne. Ja nav, tad visi uzstādījumi, kas minēti zemāk ir jāveic manuāli.</p>
-<p>Attiecinot konfigurācijas pakotni LV.LVI.VAT, visi svarīgākie uzstādījumi tiek sagatavoti, lai varētu izmantot Latvian VAT Reporting Localization.</p>
+<h2 id="role-center">Role Center</h2>
+<p>In order to use Latvian VAT Reporting Localization, no specific role center is required, because the functionality can be accessed via search pane.</p>
+<h2 id="configuration-package-import">Configuration package import</h2>
+<p><strong>Note</strong></p>
+<p>Configuration package LVI.LVI.VAT can only be imported, if LVI.LVI.STANDARD configuration package was applied previously. If not, then all of the setup mentioned below is required to be completed manually.</p>
+<p>Basic necessary system setup for the use of Latvian VAT Reporting Localization is created, when applying the configuration package LVI.LVI.VAT.</p>
 <ol>
-<li>Klikšķiniet uz pogas Meklēt lapu vai atskaiti...
-<img src="images/us_vat_Comp.png" alt="alt"></li>
-<li>Ierakstiet Konfigurācijas pakotnes un izvēlieties to no sadaļas Lapas un uzdevumi
-<img src="images/us_vat_confpack001.png" alt="alt"></li>
-<li>Konfigurācijas pakotņu sakarstā iezīmējiet LV.LVI.VAT rindiņu un nospiediet pogu Attiecināt pakotni.
-<img src="images/us_vat_confpack002.png" alt="alt"></li>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type Config. Packages and select Config. Packages from Pages and Tasks
+<img src="images/vat_help_confpack001.png" alt="alt"></li>
+<li>Select LVI.LVI.VAT package from list of Config. Packages and press Apply Package.
+<img src="images/vat_help_confpack002.png" alt="alt"></li>
 </ol>
-<p>Konfigurācijas pakotne nodrošina sekojošus uzstādījumus un funkcijas:</p>
+<p>Configuration package ensures the following information:</p>
 <ul>
-<li>Valstis/Reģionus;</li>
-<li>Virsgrāmatas uzstādījumus;</li>
-<li>PVN kontējumu uzstādījumus;</li>
-<li>PVN deklarāciju veidnes;</li>
-<li>PVN deklarācijas nosaukumus;</li>
-<li>PVN deklarācijas rindiņas;</li>
-<li>PVN atskaites uzstādījumus.</li>
+<li>Countries/Regions</li>
+<li>General Ledger Setup</li>
+<li>VAT Posting Setup</li>
+<li>VAT Statement Template</li>
+<li>VAT Statement Names</li>
+<li>VAT Statement Lines</li>
+<li>VAT Reports Configuration</li>
 </ul>
-<h2 id="piekļuves-tiesību-kopas">Piekļuves tiesību kopas</h2>
-<p>Lietojot Latvian VAT Reporting Localization ir nepieciešams piešķirt lietotājiem vai lietotāju grupām sekojošas piekļuves tiesību kopas:</p>
+<h2 id="permissions-sets">Permissions Sets</h2>
+<p>Use of Latvian VAT Reporting Localization require the following permission sets to be assigned per user or user group:</p>
 <ul>
-<li>LV_VB_VIEW – paredzēts, lai piešķirtu skatīšanās tiesības PVN buferiem un izmantotu vērtības izvēlnēs.</li>
-<li>LV_VB_EDIT- paredzēts PVN bufera izveidošanai, rediģēšanai un dzēšanai.</li>
+<li>LV_VB_VIEW – designed for viewing VAT Buffer List and selecting</li>
+<li>LV_VB_EDIT- designed for creating, editing and deleting VAT Buffer List</li>
 </ul>
-<h2 id="priekšnosacījumi">Priekšnosacījumi</h2>
-<p>Pēc konfigurācijas pakotnes attiecināšanas nepieciešams papildināt datus par uzņēmumu. Tas paveicams sekojoši:</p>
+<h2 id="pre-requisites">Pre-requisites</h2>
+<p>The following information should be completed after importing configuration package:</p>
 <ol>
-<li>Klikšķiniet uz pogas Meklēt Lapu vai Atskaiti...
-<img src="images/us_vat_Comp.png" alt="alt"></li>
-<li>Ierakstiet Uzņēmuma informācija un izvēlieties to no saraksta Lapas un uzdevumi
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type Company information and select Company information from Tasks
 <img src="images/vat_help_comp_info.png" alt="alt"></li>
-<li>Aizpildiet informāciju par uzņēmumu:</li>
 </ol>
 <ul>
-<li>Nosaukums;</li>
-<li>Adrese;</li>
-<li>Pasta indekss;</li>
-<li>Valsts;</li>
-<li>Reģistrācijas numurs;</li>
-<li>PVN reģistrācijas numurs.</li>
+<li>Complete Company Information by entering:</li>
+<li>Name</li>
+<li>Address</li>
+<li>Post Code</li>
+<li>Country</li>
+<li>Registration No.</li>
+<li>VAT Registration No.</li>
 </ul>
-<h1 id="uzstādījumi">Uzstādījumi</h1>
-<h2 id="virsgrāmatas-uzstādījumi">Virsgrāmatas uzstādījumi</h2>
-<p>Attiecinot LV.LVI.VAT konfigurācijas pakotni, virsgrāmatas uzstādījumi tiek papildināti ar PVN pārskata pielikumu uzstādījumiem.</p>
+<h1 id="setup">Setup</h1>
+<h2 id="general-ledger-setup">General Ledger Setup</h2>
+<p>By applying LVI.LVI.VAT configuration package, the General Ledger Setup shall be modified by adding VAT Statement Appendix related setup.</p>
 <ol>
-<li>Klikšķiniet uz pogas Meklēt Lapu vai Atskaiti...
-<img src="images/us_vat_Comp.png" alt="alt"></li>
-<li>Ierakstiet Virsgrāmatas uzstādījumi un izvēlieties to no saraksta Lapas un uzdevumi
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type General Ledger Setup and select General Ledger Setup from Administration
 <img src="images/vat_help_genledsetup001.png" alt="alt"></li>
 </ol>
-<p>Lai sagatavotu PVN pārskatu pielikumus, ir jāaizpilda visa prasītā informācija virsgrāmatas uzstādījumu apakšsadaļā PVN buferis:</p>
+<p>The following information should be filled in VAT Buffer fast tab in General Ledger Setup, in order to ensure preparation of VAT Statement Appendixes:</p>
 <ul>
-<li>PVN bufera numuri - norāda numuru sēriju PVN buferu numurēšanai;</li>
-<li>Noklusētais transakcijas limits - norāda robežlielumu EUR, virs kura darījums PVN pielikumā jāatspoguļo atsevišķi;</li>
-<li>Darījuma veids (ar reģ.Nr.) - norāda kodu T, kas domāts PVN 1-III daļai darījumiem, kas nepārsniedz 150 EUR;</li>
-<li>Darījuma veids (bez reģ.Nr.) - norāda kodu X, kas paredzēts PVN 1-III daļai darījumiem no 150 EUR, kuri nav jāuzrāda atsevišķi;</li>
-<li>Noklusētais partnera limits - norāda robežlielumu EUR, virs kura atsevišķos darījumus, kuri ir mazāki par robežlielumu, bet kopsummā lielāki par to, jānorāda pa darījuma partneriem;</li>
-<li>Darījuma veids norāda kodu V, kas paredzēts PVN 1-I un 1-III daļām – darījumi ar vienu partneri, kas nepārsniedz 150 EUR, par kopējo summu, kas pārsniedz 150 EUR;</li>
-<li>Atskaites dokumenta Nr. - norāda kādu dokumenta Nr. atspoguļot PVN 1-III daļā kā attaisnojuma dokumentu;</li>
-<li>Grupēt partnerus pēc - norāda vai partnerus grupēt pēc PVN reģistrācijas Nr. vai Nr. Šis uzstādījums ir būtisks, ja pastāv klientu vai piegādātāju kartiņas ar vienādiem PVN reģistrācijas numuriem.</li>
+<li>VAT Buffer Nos. - select No.Series for VAT Buffer</li>
+<li>Default Transaction Limit - enter a limit above which the transaction should be disclosed separately in VAT Appendix</li>
+<li>Business Type (w. Registration No.) - pre-defined value &quot;T&quot;</li>
+<li>Business Type (wo. Registration No.) - pre-defined value &quot;X&quot;</li>
+<li>Default Partner Limit - Specifies the threshold in LCY, above which individual transactions are lower than the threshold, but in the aggregate larger than the limit, must be split by the partners</li>
+<li>Business Type (Partner) - pre-defined value &quot;V&quot;</li>
+<li>Report Document No. - External Document No.or Document No.</li>
+<li>Group Partner By - VAT Registration No. or Customer/Vendor No.</li>
 </ul>
 <p><img src="images/vat_help_genledsetup002.png" alt="alt"></p>
-<h2 id="pvn-atskaites-uzstādījumi">PVN atskaites uzstādījumi</h2>
-<p>Attiecinot LV.LVI.VAT konfigurācijas pakotni, PVN atskaitei tiek pielāgoti nepieciešamie uzstādījumi.
-PVN atskaites uzstādījumu Numerācijas sadaļā tiek aizpildīta sekojoša informācija:</p>
+<h2 id="vat-report-setup">VAT Report Setup</h2>
+<p>By applying LVI.LVI.VAT configuration package, the VAT Report Setup shall be be modified by adding VAT Statement related setup.
+The following information should be filled in Numbering fast tab in VAT Report Setup:</p>
 <ul>
-<li>Num. sērija - norāda numuru sēriju, kas tiks izmantota EK pārdošanas sarakstu atskaitēm.</li>
-<li>PVN atgūšanas num. sērija - norāda numuru sēriju, kas tiks izmantota PVN atgriešanas ierakstiem.</li>
-<li>PVN pārskata perioda Nr. sērija - norāda, ja nepieciešama numuru sērija, kuru izmanto PVN atgriezto periodu ierakstiem.</li>
+<li>No. Series - set to No. series that are to be used for EC Sales List Reports</li>
+<li>VAT Return No. - set to No. series that are to be used for VAT Return</li>
 </ul>
 <p><img src="images/vat_help_vatrepset.png" alt="alt"></p>
-<h2 id="pvn-atskaišu-konfigurācija">PVN atskaišu konfigurācija</h2>
-<p>Attiecinot LV.LVI.VAT konfigurācijas pakotni, PVN atskaišu konfigurācija tiek papaildināta ar iestatījumiem, kas nepieciešami PVN pārskatu sagatavošanai.
-Tiek aizpildīta sekojoša informācija:</p>
+<h2 id="vat-report-configuration">VAT Report Configuration</h2>
+<p>By applying LVI.LVI.VAT configuration package, the VAT Reports Configuration shall be modified by adding VAT Statement related setup.
+The following information should be filled:</p>
 <ul>
-<li>EK pārdošanas saraksts
+<li>EC Sales List
 <ul>
-<li>Piedāvāt rindas koda bloka ID - 70151471</li>
-<li>Satura koda bloka ID - 70151472</li>
-<li>Apstiprināšanas koda bloka ID - 143</li>
+<li>Suggest Lines Codeunit ID - 70151471</li>
+<li>Content Codeunit ID - 70151472</li>
+<li>Validate Codeunit ID - 143</li>
 </ul>
 </li>
-<li>PVN atgūšana
+<li>VAT Return
 <ul>
-<li>Piedāvāt rindas koda bloka ID - 70151474</li>
-<li>Satura koda bloka ID - 70151473</li>
-<li>Apstiprināšanas koda bloka ID - 744</li>
+<li>Suggest Lines Codeunit ID - 70151474</li>
+<li>Content Codeunit ID - 70151473</li>
+<li>Validate Codeunit ID - 744</li>
 </ul>
 </li>
 </ul>
 <p><img src="images/vat_help_repconf.png" alt="alt"></p>
-<h2 id="pvn-kontējumu-uzstādījumi">PVN kontējumu uzstādījumi</h2>
-<p>PVN biznesa kontējumu grupas un PVN produkta kontējuma grupas kombinācijas nosaka darījuma partneri un pašu darījumu PVN likuma izpratnē, kā arī, piemērojamo PVN likmi, grāmatošanu noteiktos kontos, PVN atsauču piemērošanu un PVN pārskatu pielikumu veidošanu.</p>
-<p>Attiecinot LV.LVI.VAT konfigurācijas pakotni, PVN kontējumu uzstādījumi tiek izmainīti, pievienojot ar PVN saistītus uzstādījumus.</p>
-<p>Ir jāaizpilda sekojoša informācija:</p>
+<h2 id="vat-posting-setup">VAT Posting Setup</h2>
+<p>Combination of VAT business posting groups and VAT product posting groups determines the the counterparty and the transaction in terms of VAT, as well as the calculation of the VAT at certain rate, posting to definite accounts, applying VAT clauses and creating VAT Statement Appendixes.</p>
+<p>By applying LVI.LVI.VAT configuration package, the VAT Posting Setup shall be be modified by adding VAT related setup.</p>
+<p>The following information should be filled:</p>
 <ul>
-<li>PVN bizn. kontējuma grupa - norāda klienta vai pārdevēja PVN veidu, lai sasaistītu šo ierakstu veiktos darījumus ar atbilstošo virsgrāmatas kontu saskaņā ar PVN kontējumu uzstādījumiem.</li>
-<li>PVN prod. kontējuma grupa - norāda preces vai resursa PVN veidu, lai sasaistītu šo ierakstu veiktos darījumus ar atbilstošo virsgrāmatas kontu saskaņā ar PVN kontējumu uzstādījumiem.</li>
-<li>Apraksts - apraksta PVN kontējuma uzstādījumu.</li>
-<li>PVN identifikators - norāda kodu, lai varētu grupēt dažādus PVN kontējuma uzstādījumus ar līdzīgiem raksturlielumiem. Piemēram, PVN likme.</li>
-<li>PVN % - norāda atbilstošo PVN likmi attiecīgajai kontējumu brupu kombinācijai. Neievadiet procentu zīmi - tikai ciparus! Piemēram, ja PVN likme ir 25%, tad šajā lauciņā ievadiet tikai skaitli 25.</li>
-<li>PVN aprēķina tips - norāda, kā tiks aprēķināts PVN, pērkot vai pārdodot preces šo konkrēto kontējuma grupu kombinācijā.</li>
-<li>Pārdošanas PVN konts - norāda virsgrāmatas konta numuru, uz kuru pārdošanas darījumos tiks grāmatotas PVN summas šo konkrēto kontējuma grupu kombinācijā.</li>
-<li>Iepirkumu PVN konts - norāda virsgrāmatas konta numuru, uz kuru iepirkumu darījumos tiks grāmatotas PVN summas šo konkrēto kontējuma grupu kombinācijā.</li>
-<li>Apgrieztā PVN konts - norāda virsgrāmatas konta numuru, uz kuru reverso iepirkumu darījumos tiks grāmatotas PVN summas šo konkrēto kontējuma grupu kombinācijā.</li>
-<li>PVN atsauces kods - norāda PVN atsauces kodu, kas ir saistīts ar PVN kotējumu uzstādījumiem. Tas tiek izmantots pārdošanas rēķinu izdrukās.</li>
-<li>ES pakalpojums - norāda vai ikmēneša PVN atskaitēs šo kontējumu grupu kombināciju jāidentificē kā pakalpojumu.</li>
-<li>Korekcija pēc maksāj. atlaides - norāda, vai pārrēķināt PVN summas, kad grāmatojat maksājumus ar maksājumu atlaidēm.</li>
-<li>Darījuma veids - norāda darījuma veida kodu PVN pārskata pielikumam 1-I (I, A, N, K, Rx, C).</li>
-<li>Rēķins ir muitas deklarācija - atzīmē PVN kontējumu grupu kombinācijai, ar kuru tiks grāmatots PVN priekšnodoklis par preču importu, ko uzņēmums aprēķinājis saskaņā ar īpašo nodokļa režīmu. Tas nodrošina koda 6-muitas deklarācija parādīšanu laukā Dokumenta veids;</li>
-<li>Negrupēt PVN buferī - atzīmē tām PVN kontējumu grupu kombinācijām, ar kuriem iegrāmatotie darījumi PVN1 jāparāda atsevišķi neatkarīgi no darījuma summas (kokmateriālu un metāllūžņu tirdzniecība, būvniecības pakalpojumi);</li>
-<li>PVN deklarācijas rindas Nr. - norāda PVN deklarācijas rindiņas numuru (41, 42, utt) pielikumam 1-III.</li>
+<li>VAT Bus. Posting Group - Specifies the VAT specification of the involved customer or vendor to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup.</li>
+<li>VAT Prod. Posting Group - Specifies the VAT specification of the involved item or resource to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup.</li>
+<li>Description - Specifies a description of the VAT posting setup</li>
+<li>VAT Identifier - Specifies a code to group various VAT posting setups with similar attributes, for example VAT percentage.</li>
+<li>VAT % - Specifies the relevant VAT rate for the particular combination of VAT business posting group and VAT product posting group. Do not enter the percent sign, only the number. For example, if the VAT rate is 25 %, enter 25 in this field.</li>
+<li>VAT Calculation type - Specifies how VAT will be calculated for purchases or sales of items with this particular combination of VAT business posting group and VAT product posting group.</li>
+<li>Sales VAT Account - Specifies the general ledger account number to which to post sales VAT for the particular combination of VAT business posting group and VAT product posting group.</li>
+<li>Purchase VAT Account - Specifies the general ledger account number to which to post purchase VAT for the particular combination of business group and product group.</li>
+<li>Reverse Charge VAT Account - Specifies the general ledger account number to which to post purchase VAT for the particular combination of business group and product group.</li>
+<li>VAT Clause - Specifies the VAT Clause Code that is associated with the VAT Posting Setup. This is used in Sales document printouts.</li>
+<li>EU Service - Specifies if this combination of VAT business posting group and VAT product posting group are to be reported as services in the periodic VAT reports.</li>
+<li>Tax Category - not used for Latvia</li>
+<li>Business Type - Specifies the business type of the entry for VAT Statement Appendix 1-1 (I, A, N, K, Rx, C)</li>
+<li>Invoice is Customs Declaration - Specifies the combination of VAT posting groups for VAT on imports of items, calculated for the special tax regime. It provides the code 6-customs display in the declaration on field Document type. Specifies the business type of the entry for VAT Statement Appendix 1-1</li>
+<li>No Grouping in VAT Buffer - Specifies whether entry was grouped or no in VAT Buffer. This is used for transactions with local reverse charge goods.</li>
+<li>VAT Statement Line No. - Specifies the VAT Statement line no. (41, 42 etc) for VAT Statement Appendix 1-3.</li>
 </ul>
-<h2 id="pvn-deklarāciju-veidnes">PVN deklarāciju veidnes</h2>
-<p>Attiecinot LV.LVI.VAT konfigurācijas pakotni, PVN atskaišu iestatījumi tiek papildināti ar PVN deklarācijai nepieciešamiem iestatījumiem.
-Tiek veiktas izmaiņas sekojošos laukos:</p>
+<h2 id="vat-statement-template">VAT Statement Template</h2>
+<p>By applying LVI.LVI.VAT configuration package, the VAT Report Configuration shall be be modified by adding VAT Statement related setup.
+The following information should be filled:</p>
 <ul>
-<li>PVN deklarācijas atskaites ID - 70151475</li>
+<li>VAT Statement Report ID - 70151475</li>
 </ul>
 <p><img src="images/vat_help_stmt_templ.png" alt="alt"></p>
-<h2 id="pvn-deklarāciju-nosaukumi">PVN deklarāciju nosaukumi</h2>
-<p>Attiecinot LV.LVI.VAT konfigurācijas pakotni, PVN atskaišu iestatījumi tiek papildināti ar PVN deklarācijai nepieciešamiem iestatījumiem.
-Tiek veiktas izmaiņas sekojošos laukos:</p>
+<h2 id="vat-statement-names">VAT Statement Names</h2>
+<p>By applying LVI.LVI.VAT configuration package, the VAT Report Configuration shall be be modified by adding VAT Statement related setup.
+The following information should be filled:</p>
 <ul>
-<li>Nosaukums - &quot;PVN2018&quot;
-<img src="images/vat_help_stmt_templ1.png" alt="alt"></li>
+<li>VAT Statement Name - &quot;PVN2018&quot;
+<img src="images/vat_help_stmt_templ.png" alt="alt"></li>
 </ul>
-<h2 id="pvn-deklarācijas-rindiņas">PVN deklarācijas rindiņas</h2>
-<p>Attiecinot LV.LVI.VAT konfigurācijas pakotni, PVN atskaišu iestatījumi tiek papildināti ar PVN deklarācijai nepieciešamiem iestatījumiem.
-Tiek veiktas izmaiņas sekojošos laukos:</p>
+<h2 id="vat-statement-lines">VAT Statement Lines</h2>
+<p>By applying LVI.LVI.VAT configuration package, the VAT Report Configuration shall be be modified by adding VAT Statement related setup.
+The following information should be filled:</p>
 <ul>
-<li>PVN deklarācijas rindiņas izvēlētajam PVN deklarācijas Nosaukumam - &quot; PVN2018&quot;
+<li>VAT Statement lines for VAT Statement Name - &quot;PVN2018&quot;
 <img src="images/vat_help_stmt_struct.png" alt="alt"></li>
 </ul>
-<h3 id="pvn-deklarācijas-rindiņu-aizpildīšana">PVN deklarācijas rindiņu aizpildīšana</h3>
+<h3 id="complete-vat-statement-lines">Complete VAT Statement Lines</h3>
 <ol>
-<li>Klikšķiniet uz pogas Meklēt Lapu vai Atskaiti...
-<img src="images/us_vat_Comp.png" alt="alt"></li>
-<li>Ierakstiet PVN deklarācijas un izvēlieties to no saraksta Uzdevumi
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type VAT Statements and select VAT Statements from Tasks
 <img src="images/vat_help_searchStmt.png" alt="alt"></li>
-<li>Izvēlieties nosaukumu - PVN2018 un nospiediet pogu Rediģēt PVN deklarāciju
+<li>Select Batch Name - PVN2018, and press Edit VAT Statement
 <img src="images/vat_help_stmt001.png" alt="alt"></li>
 </ol>
 <p><img src="images/vat_help_stmt002.png" alt="alt"></p>
-<p>Lai nodrošinātu PVN deklarācijas atbilstību likumdošanai, ir svarīgi saglabāt jau iestatīto deklarācijas rindiņu galveno struktūru.</p>
+<p><img src="images/vat_help_stmt003.png" alt="alt"></p>
+<p>In VAT Statement lines it is required to keep the structure of the main VAT statement lines, according to LV local legislation.</p>
 <ul>
-<li>Rindiņas Nr.– rindiņas kārtas skaitlis. PVN deklarācijas rindiņas  var sakrist ar VID deklarācijas rindiņu skaitļiem. Rindiņām, kuras izmanto papildus aprēķiniem, var tikt izmantots jebkurš skaitlis.</li>
-<li>Apraksts – ievadītajam aprakstam ir  jāsakrīt ar VID PVN deklarācijas rindiņu aprakstiem; rindiņām, ko izmanto papildus kalkulācijām, var tikt izmantots brīvi izvēlēts teksts.</li>
-<li>Kaste Nr. - šim laukam ir jānorādā, uz kuru VID PVN deklarācijas rindiņu attiecas aprēķinātā summa.</li>
-<li>Tips – norāda, kuri ieraksti tiek izmantoti kalkulācijā. Ir iespējamas sekojošas izvēlnes:
+<li>Row No.– row no. for VAT Statement lines can match the State Revenue Service VAT statement lines; for lines that are used for additional calculations - any number can be used.</li>
+<li>Description – entered description should match the State Revenue Service VAT statement lines; for lines that are used for additional calculation - free text can be used</li>
+<li>Box. No. - this field should indicate to which State Revenue VAT Statement line does the calculated amount refer.</li>
+<li>Type – indicates which entries are used for calculation. Following options are available:
 <ul>
-<li>Kontu summēšana – summē norādītus virsgrāmatas ierakstus;</li>
-<li>PVN ieraksti -  summē PVN ierakstus;</li>
-<li>Rindu summēšana - summē PVN deklarācijas rindiņas;</li>
-<li>Apraksts - lieto rindiņām bez summām.</li>
-<li>Matemātika – rindā tiek veikti matemātiski aprēķini, izmantojot laukus Operators, 1.operands, 2.operands. Galvenokārt tiek izmantots PVN proporcijas aprēķinam.</li>
+<li>Account Totaling – used for filtering particular G/L entries</li>
+<li>VAT Entries -  used for filtering of VAT entries</li>
+<li>Row Totaling - used for filtering of VAT Statement rows</li>
+<li>Description - used for rows without amounts</li>
+<li>Math - rows contains calculus, using Math Operator, Operand 1 and Operand 2; this type is used for calculating VAT Proportion</li>
 </ul>
 </li>
-<li>Rindu summēšana - ja Tips ir norādīts Rindu summēšana, tad šajā laukā ir jāieraksta rindas, kas ir jāsummē.</li>
-<li>Kontu summēšana - ja Tips ir norādīts Kontu summēšana, tad šajā laukā ir jānorāda virsgrāmatas kontu numuri, kas ir jāsummē.</li>
-<li>Summas tips - ja Tips ir norādīts PVN ieraksti, tad šajā laukā ir iespējams definēt:
+<li>Row Totaling - if row type is set to Row Totaling, then here it is required to enter the rows</li>
+<li>Account Totaling - if row type is set to Account Totaling, then here it is required to enter G/L Accounts</li>
+<li>Amount type - if row type is set to VAT entries, then here it is possible to define
 <ul>
-<li>Bāze- ar nodokli apliekamās bāzes summas parādīšanai;</li>
-<li>Summa- PVN summas parādīšanai;</li>
-<li>Neatskaitāmā bāze- neatskaitāmās nodokļa bāzes summas parādīšanai;</li>
-<li>Neatskaitāmā summa- neatskaitāmā PVN summas parādīšanai.</li>
+<li>Base Amount- for displaying taxable base amount</li>
+<li>VAT Amount- for displaying VAT amount</li>
+<li>Unrealized Base Amount- for displaying unrealized taxable base amount</li>
+<li>Unrealized VAT Amount- for displaying unrealized VAT amount</li>
 </ul>
 </li>
-<li>V/G summas tips - ja Tips ir norādīts Kontu summēšana, tad šajā laukā ir iespējams izvēlēties summēšanas objektu:
+<li>G/L Amount type - if row type is set to Account Totaling, then here it is possible to define
 <ul>
-<li>Neto apgrozījumu - neto starpības parādīšanai;</li>
-<li>Debetu- tikai debeta summu parādīšanai;</li>
-<li>Kredītu - tikai kredīta summu parādīšanai.</li>
+<li>Net change - for displaying net change</li>
+<li>Debit Amount- for displaying only debit amounts</li>
+<li>Credit Amount- for displaying only credit amounts</li>
 </ul>
 </li>
-<li>Operators, 1.operands, 2.operands - ar šo lauku palīdzību var veikt matemātiskus aprēķinus. Operandi satur rindas numuru (izņemot operatorus MIN un MAX), iespējams veikt šādus aprēķinus:
+<li>Math Operator - used for defining calculation type
 <ul>
-<li>Summēt - parāda rindas vērtību darbībai:= „1.operands” + „2.operands”;</li>
-<li>Atņemt - parāda rindas vērtību darbībai:= &quot;Operand 1&quot; - &quot;Operand 2&quot;;</li>
-<li>Reizināt - parāda rindas vērtību darbībai:= &quot;Operand 1&quot; * &quot;Operand 2&quot;;</li>
-<li>Dalīt - parāda rindas vērtību darbībai:= &quot;Operand 1&quot; / &quot;Operand 2&quot; (ja Operand 2 ir vienāds ar 0, tad rezultāts ir 0);</li>
-<li>Apr.% - parāda rindas vērtību darbībai:= &quot;Operand 1&quot; / &quot;Operand 2&quot; * 100 (ja Operand 2 ir vienāds ar 0, tad rezultāts ir 0);</li>
-<li>Pielietot % - parāda rindas vērtību darbībai:= &quot;Operand 1&quot; / &quot;Operand 2&quot; / 100;</li>
-<li>MIN - parāda vismazāko skaitli no rindām, kuras ir iekļautas laukā Rindu summēšana;</li>
-<li>MAX - parāda vislielāko skaitli no rindām, kuras ir iekļautas laukā Rindu summēšana.</li>
+<li>Add - returns row value of expression &quot;Operand 1&quot; + &quot;Operand 2&quot;</li>
+<li>Substract - returns row value of expression &quot;Operand 1&quot; - &quot;Operand 2&quot;</li>
+<li>Multiply - returns row value of expression &quot;Operand 1&quot; * &quot;Operand 2&quot;</li>
+<li>Divide - returns row value of expression &quot;Operand 1&quot; / &quot;Operand 2&quot; (if Operand 2 = 0, then returns 0)</li>
+<li>Calculate % - returns row value of expression &quot;Operand 1&quot; / &quot;Operand 2&quot; * 100 (if Operand 2 = 0, then returns 0)</li>
+<li>Use % - returns row value of expression &quot;Operand 1&quot; / &quot;Operand 2&quot; / 100</li>
+<li>Min - return the lowest value of Row Totaling</li>
+<li>Max - return the highest value of Row Totaling</li>
 </ul>
 </li>
-<li>Visp. kontējuma tips, Visp.biz.kontējuma grupa, Visp.prod.kontējuma grupa, PVN bizn. kontējuma grupa, PVN prod. kontējuma grupa, ES trīspusējā tirdzniecība - lauki ierakstu filtrēšanai pēc kontējuma grupām;</li>
-<li>Drukāt ar – nodrošina iespēju izdrukā parādīt pretējo zīmi;</li>
-<li>Apaļot līdz - iespējams norādīt noapaļošanu, pēc noklusējuma 0.01;</li>
-<li>Noapaļošanas veids - Tuvākais, Uz augšu, Uz leju. Noapaļošanas lauki tiek izmantoti proporcijas aprēķinam;</li>
-<li>Aprēķināt ar - iespējams norādīt, ka aprēķinos tiek izmantota pretējā zīme;</li>
-<li>Rādīt nulli, ja - iespējams norādīt, ka tiek parādīta nulle, ja Summa ir negatīva vai pozitīva. Tiek izmantots deklarācijas rindām, kur norāda budžetā maksājamo, no budžeta atmaksājamo nodokli;</li>
-<li>Drukāt - atzīme, ka rindu nepieciešams izdrukāt deklarācijā, tiek atstāta tukša aprēķinu palīgrindām;</li>
+<li>Gen. Posting Type, Gen. Bus. Posting Group, Gen. Prod. Posting Group, VAT Bus. Posting Group, VAT Prod. Posting Group, EU 3-Party Trade - fields for additional filtering by posting groups</li>
+<li>Print With - ensures possibility to print with opposite sign;</li>
+<li>Round - ensures possibility to round numbers; 0.01 by default</li>
+<li>Rounding type - nearest, upwards, downwards; fields is used for proportion calculation</li>
+<li>Calculate with - ensures possibility to use opposite sign for calculation</li>
+<li>Zero if - ensures possibility to show zero, if amount is negative or positive; to be used for VAT payable or VAT refund fields in VAT statement</li>
+<li>Print - if checkmark is inserted, then statement line is printed</li>
 </ul>
 <p><img src="images/vat_help_stmt_struct.png" alt="alt"></p>
-<p><strong>Piezīme</strong></p>
-<p>PVN deklarācijas struktūra būtu jāatjaunina gadījumā, ja:</p>
+<p><strong>Note</strong></p>
+<p>VAT Statement structure should be updated, if</p>
 <ul>
-<li>tiek ieviesta jauna vispārējā biznesa un/vai vispārējā produktu kontējumu grupa</li>
-<li>tiek ieviesta jauna PVN biznesa un/vai PVN produktu kontējumu grupa new VAT Business and new VAT Product Posting Groups are introduced</li>
-<li>virsgrāmatā tiek izveidoti jauni konti, kas saitīti ar pirkšanas, pārdošanas vai PVN darījumiem.</li>
+<li>new General Business and new General Product Posting Groups are introduced</li>
+<li>new VAT Business and new VAT Product Posting Groups are introduced</li>
+<li>new accounts are created in Chart of Accounts, that are related to sales, purchase or VAT transactions</li>
 </ul>
-<h1 id="kā-lietot">Kā lietot</h1>
-<h2 id="kā-lietot-pvn-buferi">Kā lietot: PVN buferi</h2>
-<p><strong>Mērķis:</strong> ar PVN bufera palīdzību var sagatavot PVN deklarācijas pielikumus:</p>
+<h1 id="how-to-use">How to use</h1>
+<h2 id="how-to-use-vat-buffer">How to use: VAT Buffer</h2>
+<p><strong>Purpose:</strong> VAT Buffer is used in order to prepare VAT Statement Appendixes</p>
 <ul>
-<li>PVN 1-I PVN 1-1 Nodokļa summas par iekšzemē iegādātajām precēm un saņemtajiem pakalpojumiem</li>
-<li>VAT 1-II Nodokļa summas par precēm un pakalpojumiem, kas saņemti no Eiropas Savienības dalībvalstīm</li>
-<li>VAT 1-III Aprēķinātais nodoklis par piegādātajām precēm un sniegtajiem pakalpojumiem</li>
+<li>VAT 1-1 Local purchase disclosure</li>
+<li>VAT 1-2 EU purchase disclosure</li>
+<li>VAT 1-3 Local sale disclosure</li>
 </ul>
-<p><strong>Pieejams no:</strong> Meklēšanas poga</p>
-<p><strong>Priekšnosacījumi:</strong> Lai varētu lietot šo funkcionalitāti, ir jāattiecina konfigurācijas pakotne LV.LVI.VAT</p>
-<h3 id="jauna-pvn-bufera-izveidošana">Jauna PVN bufera izveidošana</h3>
+<p><strong>Availability:</strong> can be accessed from Search for Page or Report…</p>
+<p><strong>Pre-requisites:</strong> In order to use the functionality, the following steps are required:</p>
 <ol>
-<li>Klikšķiniet uz pogas Meklēt Lapu vai Atskaiti...
-<img src="images/us_vat_Comp.png" alt="alt"></li>
-<li>Ierakstiet PVN buferu saraksts un izvēlieties to no sadaļas Lapas un uzdevumi
+<li>Imported Configuration Package LVI.LVI.VAT</li>
+</ol>
+<h3 id="create-new-vat-buffer">Create New VAT Buffer</h3>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type VAT Buffer and select VAT Buffer from Tasks
 <img src="images/vat_help_searchVB.png" alt="alt"></li>
-<li>PVN buferu sarakstā nospiediet pogu Jauns
+<li>VAT Buffer List - create New VAT Buffer
 <img src="images/vat_help_VB_new.png" alt="alt"></li>
 </ol>
-<p><em>Norādiet Visp. info sadaļā prasīto informāciju</em></p>
+<p><em>Complete General Fast Tab</em></p>
 <ol>
-<li>Nr. - bufera numuram jāparādās automātiski, atbilstoši Virsgrāmatas uzstādījumiem. Ja tas nenotiek, ierakstiet PVN bufera numuru manuāli.</li>
-<li>Apraksts - ierakstiet PVN bufera aprakstu, piemēram, Marts 2020.</li>
-<li>No datuma - ievadiet PVN deklarācijas perioda sākuma datumu.</li>
-<li>Līdz datumam - ievadiet PVN deklarācijas perioda beigu datumu.
+<li>VAT Buffer No. should come automatically from General Ledger Setup. If it is not completed, enter the VAT Buffer No. manually</li>
+<li>Description - enter the description of the VAT Buffer, for example, &quot;2020 January&quot;</li>
+<li>From Date - enter period starting date for which the VAT Statement Appendix is prepared</li>
+<li>To Date - enter period starting date for which the VAT Statement Appendix is prepared
 <img src="images/vat_help_VB_Gen.png" alt="alt"></li>
 </ol>
-<p><em>Aizpildiet Uzstādījumu sadaļu</em></p>
+<p><em>Complete Setup Fast Tab</em></p>
 <ol>
-<li>V/G konta Nr. filtrs (Iekšzemes) - norāda PVN priekšnodokļa kontus, kuros iegrāmatotie darījumi jāiekļauj PVN 1-I daļā “Nodokļa summas par iekšzemē iegādātajām precēm un saņemtajiem pakalpojumiem”.</li>
-<li>V/G konta Nr. filtrs (ES) - norāda PVN priekšnodokļa kontus, kuros iegrāmatotie darījumi jāiekļauj PVN 1-II daļā “Nodokļa summas par precēm un pakalpojumiem, kas saņemti no Eiropas Savienības dalībvalstīm”.</li>
-<li>V/G konta Nr. filtrs (Pārdošana) - norāda PVN kontus, kuros iegrāmatots par pārdošanas darījumiem aprēķinātais PVN, kas jāiekļauj PVN 1-III daļā “Aprēķinātais nodoklis par piegādātajām precēm un sniegtajiem pakalpojumiem”.</li>
-<li>V/G konta Nr. filtrs (Pārdošana PVN 0%) - norāda ieņēmumu kontus, kuros iegrāmatotie pārdošanas darījumi jāiekļauj PVN 1-III daļā “Aprēķinātais nodoklis par piegādātajām precēm un sniegtajiem pakalpojumiem”..</li>
-<li>Transakcijas limits - enter the limit of transaction amount, below which the individual transactions should be grouped together; this limit may be entered in General Ledger Setup</li>
-<li>Partnera limits - ievadiet darījumu vērtības limitu, kuru pārsniedzot darījumi vienam un tam pašam partnerim ir jāgrupē; šis limits var tikt iestatīts arī Virsgrāmatas uzstādījumos.</li>
-<li>Atskaites dokumenta Nr. - izvēlaties Atskaites dokumenta numuru, kurš tiks iekļauts PVN deklarācijas pielikumā &quot; Ārējā dokumenta Nr., Dokumenta Nr.&quot; vai &quot; Dokumenta Nr.&quot;.</li>
-<li>Grupēt partnerus pēc - izvēlieties vai ieraksti tiks grupēti pēc PVN reģistrācijas Nr. vai pēc Klienta/ Piegādātāja numura.
+<li>G/L Account No. Filter (inland) - enter VAT Accounts that are used for local purchase transactions and inserted in VAT Posting Setup as Purchase VAT Accounts. Used for VAT 1-1 Local purchase disclosure.</li>
+<li>G/L Account No. Filter (EU) - enter VAT Accounts that are used for EU purchase transactions and inserted in VAT Posting Setup as Purchase VAT Accounts. Used for VAT 1-2 EU purchase disclosure.</li>
+<li>G/L Account No. Filter (Sales) - enter VAT Accounts that are used for local sales transactions and inserted in VAT Posting Setup as Sales VAT Accounts. Used for VAT 1-3 Local sale disclosure.</li>
+<li>G/L Account No. Filter (Sales 0%) - enter Sales Accounts that are used for  sales transactions with zero VAT rate. Used for VAT 1-3 Local sale disclosure.</li>
+<li>Transaction Limit - enter the limit of transaction amount, below which the individual transactions should be grouped together; this limit may be entered in General Ledger Setup</li>
+<li>Partner Limit - enter the limit of transaction amount, above which the transactions should be grouped per Partner; this limit may be entered in General Ledger Setup</li>
+<li>Report Document - select which document number is to be used as Report Document No. and disclosed in VAT Statement Appendix  &quot;External Document No., Document No.&quot; or &quot;Document No.&quot;</li>
+<li>Group Partner By - select whether the entries should be grouped by VAT Registration No. or Customer/Vendor No.
 <img src="images/vat_help_VB_Set.png" alt="alt"></li>
 </ol>
-<p><em>Izveidojiet rindiņas</em></p>
+<p><em>Create Lines</em></p>
 <ol>
-<li>Rīkjoslas sadaļā Atskaites nospiediet pogu Piedāvāt rindas un tālāk nospiediet pogu Labi.
+<li>In the Ribbon press &quot;Suggest Lines&quot; function and OK
 <img src="images/vat_help_VB_Sugg.png" alt="alt">
 <img src="images/vat_help_VB_Sugg2.png" alt="alt"></li>
-<li>PVN buferī tiek izveidotas darījumu rindiņas, kas satur sekojošu informāciju:
+<li>The VAT Buffer gets populated by transaction lines, that contain the following information:
 <img src="images/vat_help_VB_Sugg3.png" alt="alt"></li>
 </ol>
-<p><em>Paskaidrojums par izveidotajām rindiņām</em></p>
+<p><em>Explanation for lines created</em></p>
 <ul>
-<li>Rindas tips - PVN deklarācijas vajadzībām:
+<li>Line Type - for VAT reporting purposes
 <ul>
-<li>Iekšzemes - norāda iepirkumus iekšzemē</li>
-<li>ES - norāda iepirkumus ES teritorijā</li>
-<li>Pārdošana - norāda pārdošanu iekšzemē</li>
+<li>Inland - indicates Local purchases</li>
+<li>EU - indicates EU purchases</li>
+<li>Sales - indicates Local sales</li>
 </ul>
 </li>
-<li>V/G ieraksta Nr. - norāda virsgrāmatas ieraksta numuru vai atstāj lauku tukšu, ja rindiņa attiecas uz vairāku darījumu kopsummu;</li>
-<li>PVN Ieraksta Nr.- norāda PVN ieraksta numuru vai atstāj lauku tukšu, ja rindiņa attiecas uz vairāku darījumu kopsummu;</li>
-<li>Grāmatošanas datums - nodāda datumu, kad darījums ir iegrāmatots. Vai arī tiek atstāts tukšs lauks, ja rindiņa attiecas uz vairākiem darījumiem;</li>
-<li>Dokumenta datums- nodāda dokumenta datumu, vai arī tiek atstāts tukšs lauks, ja rindiņa attiecas uz vairākiem darījumiem;</li>
-<li>Izlaist ierakstu - ja atzīmēts, tad ieraksts netiek iekļauts PVN deklarācijā;</li>
-<li>Atskaites dokumenta Nr. - attaisnojošā dokumenta numurs;</li>
-<li>Dokumenta numurs. - sistēmas piešķirtais numurs;</li>
-<li>Transakcijas Nr. - norāda ar rindu saistītā avota ieraksta transkacijas Nr.;</li>
-<li>Ārējais dokumenta Nr.- norāda ieraksta ārējā dokumenta numuru, piemēram, piegādātāja rēķina numuru;</li>
-<li>Dokumenta tips- norāda saistītā dokumenta tipu:</li>
-<li>Maksājums - ja PVN tiek aprēķināts priekšapmaksas rezultātā</li>
-<li>Rēķins - ja PVN tiek aprēķināts pirkšanas/ pārdošanas darījuma rezultātā</li>
-<li>Kredītrēķins - ja PVN tiek aprēķināts pirkšanas/ pārdošanas atgriešanas darījuma rezultātā;</li>
-<li>Darījuma veids- saskaņā ar nodokļu administrācijas noteiktajiem kodiem</li>
-<li>Negrupēt - atzīmētās rindiņas netiek grupētas;</li>
-<li>ES trīspusējā tirdzniecība- atzīmētās rindiņas norāda uz darījuma saistību ar ES trīspusējo tirdzniecību;</li>
-<li>PVN deklarācijas rindas Nr. - norāda PVN deklarācijas rindiņas numuru;</li>
-<li>ES pakalpojums - norāda, ja rindiņa atbilst EU valstīs sniegtam pakalpojumam;</li>
-<li>Piegādātāja Nr. - piegādātāja numurs no sistēmas Piegādātāju saraksta;</li>
-<li>Klienta Nr.- klienta numurs no sistēmas Klientu saraksta;</li>
-<li>Partnera Nr.- norāda darījuma partnera numuru, kas ietilpst vienā PVN grupā;</li>
-<li>Partnera nosaukums- norāda darījuma partnera nosaukumu;</li>
-<li>Partnera PVN reģistrācijas Nr.- norāda darījuma partnera PVN reģistrācijas numuru;</li>
-<li>Valsts/ reģiona kods - norāda darījuma partnera valsts kodu;</li>
-<li>Valūtas kods - norāda valūtas kodu;</li>
-<li>Valūtas kurss- norāda izmantoto valūtas kursu, ja darījuma valūta atšķiras no vietējās valūtas;</li>
-<li>Bāzes summa (VV) - norādīta ar PVN apliekamā summa vietējā valūtā</li>
-<li>PVN summa (VV) - norādīta PVN summa vietējā valūtā;</li>
-<li>Summa (VV) - norādīta kopējā darījuma summa vietējā valūtā, ieskaitot PVN;</li>
-<li>Bāzes summa - norādīta ar PVN apliekamā summa</li>
-<li>PVN summa - norādīta PVN summa;</li>
-<li>Summa - norādīta kopējā darījuma summa, ieskaitot PVN;</li>
-<li>Atskaites dokumenta tips
+<li>Line No.- line number</li>
+<li>G/L Entry No. - indicates GL entry number or is blank for several deals in one row</li>
+<li>VAT Entry No.- indicate VAT entry number or is blank for several deals in one row</li>
+<li>Posting Date - indicate posting date or is blank for several deals in one row</li>
+<li>Document Date- indicate date of the document or is blank for several deals in one row</li>
+<li>Transaction No. - indicate the number of transaction</li>
+<li>Skip Entry- if checked, then entry is not included for VAT reporting</li>
+<li>Report Document No. - number of the source document</li>
+<li>Document No. - number assigned by system</li>
+<li>External Document No.- external document number</li>
+<li>Document Type- indicates the type of the document</li>
+<li>Payment - in case VAT is calculated as a result of prepayment</li>
+<li>Invoice - in case VAT is calculated as a result of purchase/sales transaction</li>
+<li>Credit Memo - in case VAT is calculated as a result of purchase/sales return transaction</li>
+<li>Business Type- according to codes of Tax Administration</li>
+<li>Invoice Is Custom Declaration- displays the invoice as customs declaration in VAT buffer</li>
+<li>No Grouping - displays the selected entry without grouping</li>
+<li>EU 3-Party Trade- indicates whether the deal is classified as third party trade
 <ul>
-<li>Nodokļu rēķins</li>
-<li>Kases čeks vai kvīts</li>
-<li>Bezskaidras naudas maksājums</li>
-<li>Kredītrēķins</li>
-<li>Cits</li>
-<li>Muitas deklarācija</li>
+<li>Yes</li>
+<li>No</li>
 </ul>
 </li>
-<li>Sistēmas izveidots- atzīmēts, ja rindiņa tikusi sagatavota automātiski Latvian VAT Reporting Localization, ja nav atzīmēts, tad rindiņu lietotājs ievadījis manuāli.</li>
+<li>VAT %- indicates the VAT interest rate</li>
+<li>VAT Declaration Line No. - indicates the VAT declaration line number</li>
+<li>EU Service - indicates whether the deal is considered as service within EU</li>
+<li>Vendor No. - vendor number from Vendor List</li>
+<li>Customer No.- customer number from Customer List</li>
+<li>Partner No.- Partner number, if transactions involve Companies that are considered as one VAT Group</li>
+<li>Partner Name- Partner name</li>
+<li>Partner VAT Registration No.- Partner VAT No.</li>
+<li>Country/Region Code -</li>
+<li>Base Amount (LCY)- VAT taxable amount in Local currency</li>
+<li>VAT Amount (LCY)- VAT amount in Local currency</li>
+<li>Amount (LCY) - total amount in Local currency</li>
+<li>Currency Code - currency code</li>
+<li>Currency Factor- exchange rate, if deal currency differs from local currency</li>
+<li>Base Amount</li>
+<li>VAT Amount</li>
+<li>Amount</li>
+<li>Report Document Type
+<ul>
+<li>Invoice</li>
+<li>Cash Payment</li>
+<li>Bank Payment</li>
+<li>Credit Memo</li>
+<li>Other</li>
+<li>Custom Declaration</li>
+</ul>
+</li>
+<li>Group Line No. - group line number within Group level</li>
+<li>Grouping Level No. - group level number</li>
+<li>System-Created- checked if line is suggested by Latvian VAT Reporting Localization, unchecked if user made modifications to line</li>
 </ul>
 <p><img src="images/vat_help_VB_Sugg3.png" alt="alt"></p>
-<p><strong>Piezīme</strong></p>
-<p>Ja reiz PVN buferis ir sagatavots, tad papildus veiktie grāmatojumi, kas veikti sagatavotā bufera pārskata periodā, netiks automātiski iekļauti buferī. Lai iekļautu papildus iegrāmatotos rēķinus jau sagatavotaj PVN buferī, nepieciešams izdzēst visas PVN bufera rindiņas un sagatavot tās no jauna.</p>
-<p>PVN buferis tiek sagatavots katram pārskata periodam atsevišķi. Gadījumā, ja jākoriģē iepriekšējo periodu PVN deklarācija, šim nolūkam ir ieteicams izveidot jaunu PVN buferi, lai nodrošinātu datu izsekojamību. Šī iemesla dēļ, nav ieteicams veikt jebkādus manuālus labojumus PVN bufferī, jo izveidojot jaunu buferi, šīs izmaiņas netiks pārnestas. Ja PVN buferī dokumenti ir norādīti nekorekti, tad grāmatvedim ir jāizskata katrs rēķins atsevišķi. Ir jāatceļ kļūdainais darījums un tā vietā jāiegrāmato pareizs darījums.</p>
-<h3 id="pvn-deklarācijas-pielikumu-1-i-1-ii-1-iii-izdrukāšana">PVN deklarācijas pielikumu 1-I, 1-II, 1-III izdrukāšana</h3>
+<p><strong>Note</strong></p>
+<p>Once the lines are created in VAT Buffer, they are not updated, if any postings are done within the period, that is collected inside the VAT Buffer.
+In order to update the lines in VAt Buffer it is required to press &quot;Delete All Lines&quot; in Ribbon, then press &quot;Suggest Lines&quot; once more.</p>
+<p>VAT Buffer is created per each reporting period. In case corrections need to be submitted, then a new VAT Buffer should be created, in order to have the audit trail of the data reported. Therefore it is not advised to make any manual corrections of VAT Buffer lines, because they will not be picked up, once a new VAT Buffer is created. If there are documents represented in VAT Buffer in an incorrect way, then the Accountant should review the each case, reverse the wrong transactions and create correct transactions.</p>
+<h3 id="print-vat-statement-appendix-1-1-1-2-1-3">Print VAT Statement Appendix 1-1, 1-2, 1-3</h3>
 <ol>
-<li>PVN bufera statuss ir jānomaina uz Nodots.
-<img src="images/vat_help_VB_print001.1.png" alt="alt"></li>
-<li>Tad rīkojostā izvēlas opciju Drukāt PVN pielikumu.
-<img src="images/vat_help_VB_print001.2.png" alt="alt"></li>
-<li>Drukāšanas opcijas logā izvēlieties no saraksta darbinieku, kas sagatavo PVN deklarācijas pielikumu. Šajā gadījumā tiks izmantota sekojoša informācija no darbinieka kartiņas:</li>
-</ol>
-<ul>
-<li>Vārds</li>
-<li>Uzvārds</li>
-<li>Amats</li>
-<li>Telefona numurs.</li>
-</ul>
-<ol start="4">
-<li>PVN deklarācijas pielikumu var Priekšskatīt vai izdrukāt PDF, Excel vai Word failu formātos.
+<li>VAT Buffer status needs to be set to Released, using &quot;Release&quot; button in the Ribbon.</li>
+<li>In the Ribbon press &quot;Print VAT Appendix&quot;</li>
+<li>Select &quot;Prepared by&quot; - the responsible employee, who prepared the VAT Statement Appendix from the list of Employees. By selecting &quot;Prepared by&quot;, Employee card data are re-used: Name, Surname, Job title, Phone No.</li>
+<li>VAT Statement Appendix can be sent to Preview or printed as PDF, Excel, Word.
+<img src="images/vat_help_VB_print001.png" alt="alt">
 <img src="images/vat_help_VB_print002.png" alt="alt"></li>
 </ol>
-<h2 id="kā-lietot-ek-pārdošanas-saraksta-pārskatus">Kā lietot EK pārdošanas saraksta pārskatus</h2>
-<p><strong>Mērķis:</strong> EK pārdošanas saraksta pārskatu izmanto sekojošos PVN deklarācijas pielikumos:</p>
+<h2 id="how-to-use-ec-sales-list-reports">How to use EC Sales List Reports</h2>
+<p><strong>Purpose:</strong> EC Sales List Report is used, in order to prepare VAT Statement Appendixes</p>
 <ul>
-<li>PVN 2 - Pārskats par preču piegādēm un sniegtajiem pakalpojumiem Eiropas Savienības teritorijā</li>
-<li>PVN 3 - preču piegādes uz noliktavu citā dalībvalstī darījumos un PVN 2 pārskata koriģēšanai</li>
+<li>VAT 2 EU sale disclosure</li>
+<li>VAT 3 Correction of EU sale disclosure</li>
 </ul>
-<p><strong>Pieejams no:</strong> Meklēšanas poga</p>
-<p><strong>Priekšnosacījumi:</strong> Lai varētu lietot šo funkcionalitāti, ir jāattiecina konfigurācijas pakotne LV.LVI.VAT</p>
-<h3 id="izveidojiet-jaunu-ek-pārdošanas-saraksta-pārskatu">Izveidojiet jaunu EK pārdošanas saraksta pārskatu</h3>
+<p><strong>Availability:</strong> can be accessed from Search for Page or Report…</p>
+<p><img src="images/vat_help_searchEC.png" alt="alt"></p>
+<p><strong>Pre-requisites:</strong>  In order to use the functionality, the following steps are required:</p>
 <ol>
-<li>Klikšķiniet uz pogas Meklēt Lapu vai Atskaiti...
-<img src="images/us_vat_Comp.png" alt="alt"></li>
-<li>Ierakstiet EK pārdošanas saraksta pārskati un izvēlieties to no sadaļas Pārskati un analīze
+<li>Imported Configuration Package LVI.LVI.VAT</li>
+</ol>
+<h3 id="create-new-ec-sales-list-reports">Create New EC Sales List Reports</h3>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type EC Sales List Reports and select Sales List Reports from Reports and Analysis
 <img src="images/vat_help_searchEC.png" alt="alt"></li>
-<li>EK pārdošanas saraksta pārskatu lapā izveidojiet jaunu pārskatu
+<li>EC Sales List Reports - create New EC Sales List Report
 <img src="images/vat_help_EC_new.png" alt="alt"></li>
 </ol>
-<p><em>Aizpildiet vispārējās informācijas sadaļu</em></p>
+<p><em>Complete General Fast Tab</em></p>
 <ol>
-<li>Nr. - pārskata numuram jāparādās automātiski, atbilstoši PVN atskaites uzstādījumiem. Ja tas nenotiek, ierakstiet numuru manuāli.</li>
-<li>PVN atskaites versija - izvēlieties no saraksta atskaites versiju</li>
-<li>PVN atskaites tips</li>
+<li>No. should come automatically from VAT Report Setup. If it is not completed, enter the No. Series manually</li>
+<li>Description - enter the description of the EC SAles List Report, for example, &quot;2020 January&quot;</li>
+<li>VAT Report Version - select EC Sales List Report Version</li>
+<li>VAT Report Type</li>
 </ol>
 <ul>
-<li>Standarta - izmantojams PVN 2 pielikumam</li>
-<li>Labojoša - izmantojams PVN 3 pielikumam</li>
-<li>Papildus</li>
+<li>Standard - for VAT Statement Appendix VAT2</li>
+<li>Corrective - for VAT Statement Appendix VAT3</li>
+<li>Supplementary</li>
 </ul>
-<ol start="4">
-<li>Sākotnējās atskaites Nr. - jāizvēlas tikai tad, ja PVN atskaites tips ir norādīts Labojoša.</li>
-<li>Perioda gads</li>
-<li>Perioda tips</li>
-<li>Perioda Nr.</li>
+<ol start="5">
+<li>Original Report No. - should be selected, if only VAT Report Type is set to Corrective</li>
+<li>Period Year</li>
+<li>Period Type</li>
+<li>Period No.</li>
 </ol>
 <p><img src="images/vat_help_EC_Gen.png" alt="alt"></p>
-<p><em>Izveidojiet rindas</em></p>
+<p><em>Create Lines</em></p>
 <ol>
-<li>Rīkjoslā klikšķiniet uz pogas Apstrādāt un izvēlaties apakšfunkciju Piedāvāt rindas
+<li>In the Ribbon press &quot;Suggest Lines&quot; function
 <img src="images/vat_help_EC_Sugg001.png" alt="alt"></li>
 </ol>
-<p><em>Sagatavoto rindu skaidrojums</em></p>
+<p><em>Explanation for lines created</em></p>
 <ul>
-<li>Rindas Nr.- norāda rindas kārtas numuru.</li>
-<li>Atskaites Nr.  - norāda EK pārdošanas saraksta pārskata numuru</li>
-<li>Valsts kods - norāda darījuma partnera valsts kodu</li>
-<li>Klienta PVN reģ. Nr. - norāda klienta PVN reģistrācijas numuru</li>
-<li>Kopējā piegāžu vērtība</li>
-<li>Transakcijas indikators - norāda B2B preces vai B2B pakalpojumi</li>
-<li>Rindas tips - norāda vai rinda ir jauna, labojoša vai atcelta.</li>
+<li>Line No.- report Row No.</li>
+<li>Report No.  - indicates EC Sales List Report No.</li>
+<li>Country Code</li>
+<li>Customer VAT. Reg. No. - indicates Customer VAT Registration No.</li>
+<li>Total Value of Supplies</li>
+<li>Transaction Indicator - specifies B2B Goods or B2B Services</li>
+<li>Line Type - specifies whether the line is new, corrective or cancelled</li>
 </ul>
 <p><img src="images/vat_help_EC_Sugg002.png" alt="alt"></p>
-<h3 id="izdrukājiet-pvn-deklarācijas-pielikumus-pvn2-un-pvn3">Izdrukājiet PVN deklarācijas pielikumus PVN2 un PVN3</h3>
+<h3 id="print-vat-statement-appendix-2-3">Print VAT Statement Appendix 2, 3</h3>
 <ol>
-<li>EK pārdošanas saraksta pārskata statusam ir jābūt Nodotam
-<img src="images/vat_help_EC_Sugg003.png" alt="alt"></li>
-<li>Rīkjoslā nospiediet pogu Drukāt
-<img src="images/vat_help_EC_Sugg004.png" alt="alt"></li>
-<li>Drukāšanas opcijas logā izvēlieties no saraksta darbinieku, kas sagatavo PVN deklarācijas pielikumu. Šajā gadījumā tiks izmantota sekojoša informācija no darbinieka kartiņas:</li>
-</ol>
-<ul>
-<li>Vārds</li>
-<li>Uzvārds</li>
-<li>Amats</li>
-<li>Telefona numurs.</li>
-</ul>
-<ol start="4">
-<li>PVN deklarācijas pielikumu var Priekšskatīt vai izdrukāt PDF, Excel vai Word failu formātos.
+<li>EC Sales List Report status needs to be set to Released, using &quot;Release&quot; button in the Ribbon.</li>
+<li>In the Ribbon press &quot;Print&quot;</li>
+<li>Select &quot;Prepared by&quot; - the responsible employee, who prepared the VAT Statement Appendix from the list of Employees. By selecting &quot;Prepared by&quot;, Employee card data are re-used: Name, Surname, Job title, Phone No.</li>
+<li>VAT Statement Appendix can be sent to Preview or printed as PDF, Excel, Word.
+<img src="images/vat_help_EC_print001.png" alt="alt">
 <img src="images/vat_help_EC_print002.png" alt="alt"></li>
 </ol>
-<p><strong>Piezīme</strong></p>
-<p>Atcerieties, kas atkarībā no PVN atskaites tipa, kas izvēlēts EK pārdošanas saraksta pārskatā, tiks sagatavots atbilstošs PVN deklarācijas pielikums:</p>
+<p><strong>Note</strong></p>
+<p>Please note that based on the VAT Report Type selected in EC Sales List Reports Card, the following printout shall be prepared:</p>
 <ul>
-<li>Standarta - tiks sagatavots pielikums PVN 2</li>
-<li>Labojoša - tiks sagatavots pielikums PVN 3</li>
+<li>Standard - for VAT Statement Appendix VAT2</li>
+<li>Corrective - for VAT Statement Appendix VAT3</li>
 </ul>
-<h2 id="kā-lietot-pvn-deklarācija">Kā lietot: PVN deklarācija</h2>
-<p><strong>Mērķis:</strong> Lai sagatvotu PVN atgriešanu, PVN deklarācijā izmanto filtrus PVN ierakstos vai virsgrāmatas ierakstos.</p>
-<p><strong>Pieejams no:</strong> meklēšanas poga</p>
-<p><strong>Priekšnosacījumi:</strong> Lai varētu lietot šo funkcionalitāti, ir nepieciešams paveikt sekojošo:</p>
-<h3 id="izdrukāt-pvn-deklarāciju">Izdrukāt PVN deklarāciju</h3>
+<h2 id="how-to-use-vat-statement">How to use: VAT Statement</h2>
+<p><strong>Purpose:</strong> VAT Statement is used to set filters for VAT or General Ledger Entries, in order to prepare VAT Return.</p>
+<p><strong>Availability:</strong> can be accessed from Search for Page or Report…</p>
+<p><strong>Pre-requisites:</strong> In order to use the functionality, the following steps are required:</p>
+<h3 id="print-vat-statement">Print VAT Statement</h3>
 <ol>
-<li>Klikšķiniet uz pogas Meklēt Lapu vai Atskaiti...
-<img src="images/us_vat_Comp.png" alt="alt"></li>
-<li>Ierakstiet PVN deklarācijas un izvēlieties to no sadaļas Lapas un uzdevumi
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type VAT Statements and select VAT Statements from Tasks
 <img src="images/vat_help_searchStmt.png" alt="alt"></li>
-<li>Izvēlaties nosaukumu - PVN2018, un nospiediet OK
+<li>Select Batch Name - PVN2018, and press OK
 <img src="images/vat_help_stmt001.png" alt="alt">
 <img src="images/vat_help_stmt002.png" alt="alt"></li>
-<li>Nospiediet Drukāt...
+<li>Press Print
 <img src="images/vat_help_stmt_print001.png" alt="alt"></li>
-<li>Aizpildiet drukāšanas opcijas:</li>
+<li>Complete Printing Options:</li>
 </ol>
 <ul>
-<li>Gads - ievadiet pārskata perioda gadu;</li>
-<li>Perioda tips - izvēlieties perioda tipu: mēnesis, ceturksnis, pusgads vai gads;</li>
-<li>Perioda Nr. - ievadiet perioda numuru;</li>
-<li>Pārmaksātā PVN summa - ja nepieciešams uzrādīt pārmaksāto PVN summu izdrukā, to var ievadīt šajā laukā manuāli. Šo lauku var arī atstāt tukšu un vēlāk ievadīt EDS manuāli;</li>
-<li>Atmaksas PVN summa - ja nepieciešams uzrādīt PVN summu atmaksai izdrukā, to var ievadīt šajā laukā manuāli. Šo lauku var arī atstāt tukšu un vēlāk ievadīt EDS manuāli;</li>
-<li>Pārskaitīt uz bankas kontu - izvēlieties bankas kontu, uz kuru VID pārskaitīs atmaksājamo summu. Šo lauku var atstāt tukšu;</li>
-<li>Iekļaut PVN ierakstus - var tikt izmantots tikai tad, ja PVN deklarācija ir balstīta uz PVN ierakstiem. Iespējamas sekojošas izvēlnes opcijas:
+<li>Year - enter year of the reporting period</li>
+<li>Period Type - select period type</li>
+<li>Period No. - enter period no.</li>
+<li>Overpaid VAT Amount - this can be completed manually, if only needed to appear on the printout; this amount can be entered in Electronic Declaration System directly; optional field</li>
+<li>Refund VAT Amount - this can be completed manually, if only needed to appear on the printout; this amount can be entered in Electronic Declaration System directly; optional field</li>
+<li>Transfer to Bank Account - select a bank account to which the State Revenue Service should transfer the amount you would like to be refunded by the State; optional field</li>
+<li>Include VAT Entries - should be used, if only VAT Statement is based on VAT Entries
 <ul>
-<li>Atvērts</li>
-<li>Noslēgts</li>
-<li>Atvērts un noslēgts (rekomendētā opcija)</li>
+<li>Open</li>
+<li>Closed</li>
+<li>Open and Closed - recommended option</li>
 </ul>
 </li>
-<li>Iekļaut PVN ierakstus - var tikt izmantots tikai tad, ja PVN deklarācija ir balstīta uz PVN ierakstiem. Iespējamas sekojošas izvēlnes opcijas:
+<li>Include VAT Entries - should be used, if only VAT Statement is based on VAT Entries
 <ul>
-<li>Pirms perioda un tā laikā</li>
-<li>Perioda laikā (rekomendētā opcija)</li>
+<li>Before and Within Period</li>
+<li>Within Period - recommended option</li>
 </ul>
 </li>
-<li>Noapaļot līdz veseliem skaitļiem - neaktīva funkcija Latvijas likumdošanas prasībām</li>
-<li>Parādīt summas atskaišu papildvalūtā - var tikt izmantots, ja vien EUR nav uzņēmuma vietējā valūta.</li>
-<li>Sagatavoja- Drukāšanas opcijas logā izvēlieties no saraksta darbinieku, kas sagatavo PVN deklarācijas pielikumu. Šajā gadījumā tiks izmantota sekojoša informācija no darbinieka kartiņas:</li>
-<li>Vārds</li>
-<li>Uzvārds</li>
-<li>Amats</li>
-<li>Telefona numurs.</li>
+<li>Round to Whole Numbers - disabled for Latvia</li>
+<li>Show Amount in Additional Reporting Currency - should be used, if only EUR is not the Local Currency of the Company</li>
+<li>Prepared By- the responsible employee, who prepared the VAT Statement Appendix from the list of Employees. By selecting &quot;Prepared by&quot;, Employee card data are re-used: Name, Surname, Job title, Phone No.</li>
 </ul>
 <p><img src="images/vat_help_stmt_print002.png" alt="alt"></p>
 <ol start="6">
-<li>Pārskatiet izdrukāto PVN deklarāciju</li>
+<li>Review the VAT Statement printed</li>
 </ol>
-<h3 id="sagatavojiet-pvn-atgriešanu">Sagatavojiet PVN atgriešanu</h3>
+<h3 id="prepare-vat-return">Prepare VAT Return</h3>
 <ol>
-<li>Klikšķiniet uz pogas Meklēt Lapu vai Atskaiti...
-<img src="images/us_vat_Comp.png" alt="alt"></li>
-<li>Ierakstiet PVN atgriešanas un izvēlieties to no sadaļas Pārskati un analīze
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type VAT Return and select VAT Return from Reports and Analysis
 <img src="images/vat_help_searchVR.png" alt="alt"></li>
-<li>PVN atgriešanas sarakstā nospiediet pogu Jauns
+<li>VAT Returns List - create VAT Return
 <img src="images/vat_help_VR_new.png" alt="alt"></li>
 </ol>
-<p><em>Aizpildiet Vispārīgās informācijas sadaļu</em></p>
+<p><em>Complete General Fast Tab</em></p>
 <ol>
-<li>Nr. - atgriešanas numuram jāparādās automātiski, atbilstoši PVN atskaites uzstādījumiem. Ja tas nenotiek, ierakstiet numuru manuāli.</li>
-<li>Versija - izvēlieties atskaites versiju</li>
-<li>Perioda gads - tiek ielasīts automātiski ar funkciju Piedāvāt rindas;</li>
-<li>Perioda tips - tiek ielasīts automātiski ar funkciju Piedāvāt rindas;</li>
-<li>Perioda Nr. - tiek ielasīts automātiski ar funkciju Piedāvāt rindas.</li>
+<li>No. should come automatically from VAT Report Setup. If it is not completed, enter the No. Series manually</li>
+<li>Version - select Report Version</li>
+<li>Period Year - is completed by Suggest Lines Process</li>
+<li>Period Type - is completed by Suggest Lines Process</li>
+<li>Period No. - is completed by Suggest Lines Process</li>
 </ol>
 <p><img src="images/vat_help_VR_Gen.png" alt="alt"></p>
-<p><em>Izveidojiet rindas</em></p>
+<p><em>Create Lines</em></p>
 <ol>
-<li>Rīkjoslā nospiediet pogu Piedāvāt rindas
+<li>In the Ribbon press &quot;Suggest Lines&quot; function
 <img src="images/vat_help_VR_Sugg001.png" alt="alt"></li>
-<li>Aizpildiet prasītos kritērijus</li>
+<li>Complete the Criteria</li>
 </ol>
 <ul>
-<li>Iekļ. PVN ierakstus - izvēlieties Atvērts un noslēgts;</li>
-<li>Iekļ. PVN ierakstus - izvēlieties Perioda laikā;</li>
-<li>PVN deklarācijas veidne - Izvēlieties PVN;</li>
-<li>PVN deklarācijas nosaukums - izvēlieties PVN2018;</li>
-<li>Perioda gads - ievadiet pārskata gada skaitli;</li>
-<li>Perioda tips - ievadiet pārskata tipu;</li>
-<li>Perioda Nr. - ievadiet perioda numuru;</li>
-<li>Sākuma datums - tiek ievadīts automātiski vadoties pēc augstāk norādītajiem raksturlielumiem;</li>
-<li>Beigu datums - tiek ievadīts automātiski vadoties pēc augstāk norādītajiem raksturlielumiem.
+<li>Include VAT Entries - set to Open and Closed</li>
+<li>Include VAT Entries - set to Within Period</li>
+<li>VAT Statement Template - set to VAT</li>
+<li>VAT Statement Name - set to PVN2018</li>
+<li>Period Year - enter year of the reporting period</li>
+<li>Period Type - select period type</li>
+<li>Period No. - enter period no.</li>
+<li>Start Date - completed by system from the criteria chosen above</li>
+<li>End Date - completed by system from the criteria chosen above
 <img src="images/vat_help_VR_Sugg002.png" alt="alt"></li>
 </ul>
-<p><em>Sagatavoto rindu skaidrojums</em></p>
+<p><em>Explanation for lines created</em></p>
 <ul>
-<li>Rindiņas Nr. - rindu identificējošs numurs, kas saistīts ar</li>
-<li>Apraksts - rindiņas apraksts, identisks aprakstam VID PVN deklarācijā;</li>
-<li>Kaste Nr. - VID PVN deklarācijas rindiņas Nr.</li>
-<li>Summa - rindas summa</li>
+<li>Row No. - lines of VAT Return</li>
+<li>Description - description from VAT Statement</li>
+<li>Box No. - line code according to EDS</li>
+<li>Amount - line amount</li>
 </ul>
-<h3 id="eksportējiet-pvn-atgriešanu-ar-pielikumiem-uz-eds">Eksportējiet PVN atgriešanu ar pielikumiem uz EDS</h3>
+<h3 id="export-vat-return-with-appendixes-to-eds">Export VAT Return with Appendixes to EDS</h3>
 <ol>
-<li>Rīkojostā nospiediet pogu Nodot</li>
-<li>Nospiediet pogu Ģenerēt un aizpildiet eksportēšanas opcijas:</li>
+<li>VAT Return status needs to be set to Released, using &quot;Release&quot; button in the Ribbon.</li>
+<li>In the Ribbon press &quot;Submit&quot;</li>
+<li>Complete Export Options:</li>
 </ol>
 <ul>
-<li>Gads - ievadiet pārskata perioda gadu;</li>
-<li>Perioda tips - izvēlieties perioda tipu: mēnesis, ceturksnis, pusgads vai gads;</li>
-<li>Perioda Nr. - ievadiet perioda numuru;</li>
-<li>Pārmaksātā PVN summa - ja nepieciešams uzrādīt pārmaksāto PVN summu izdrukā, to var ievadīt šajā laukā manuāli. Šo lauku var arī atstāt tukšu un vēlāk ievadīt EDS manuāli;</li>
-<li>Atmaksas PVN summa - ja nepieciešams uzrādīt PVN summu atmaksai izdrukā, to var ievadīt šajā laukā manuāli. Šo lauku var arī atstāt tukšu un vēlāk ievadīt EDS manuāli;</li>
-<li>Pārskaitīt uz bankas kontu - izvēlieties bankas kontu, uz kuru VID pārskaitīs atmaksājamo summu. Šo lauku var atstāt tukšu;</li>
-<li>PVN bufera Nr. - izvēlieties PVN buferi (PVN buferim jābūt statusā Nodots un jāiekļaujas augstākminēto filtrēšanas parametru diapazonā);</li>
-<li>VIES Nr.  - izvēlieties EK pārdošanas atskaiti (EK Pārdošanas atskaitei jābūt ar statusu Nodota un jāiekļaujas augstākminēto filtrēšanas parametru diapazonā);</li>
-<li>Noapaļot līdz veseliem skaitļiem - atspējots Latvijas likumdošanai;</li>
-<li>Parādīt summas atskaišu papildvalūtā - var tikt izmantots, ja vien EUR nav uzņēmuma vietējā valūta;</li>
-<li>Sagatavoja- Drukāšanas opcijas logā izvēlieties no saraksta darbinieku, kas sagatavo PVN deklarācijas pielikumu. Šajā gadījumā tiks izmantota sekojoša informācija no darbinieka kartiņas:</li>
-<li>Vārds</li>
-<li>Uzvārds</li>
-<li>Amats</li>
-<li>Telefona numurs.
+<li>Year - enter year of the reporting period</li>
+<li>Period Type - select period type</li>
+<li>Period No. - enter period no.</li>
+<li>Overpaid VAT Amount - this can be completed manually, if only needed to appear on the printout; this amount can be entered in Electronic Declaration System directly; optional field</li>
+<li>Refund VAT Amount - this can be completed manually, if only needed to appear on the printout; this amount can be entered in Electronic Declaration System directly; optional field</li>
+<li>Transfer to Bank Account - select a bank account to which the State Revenue Service should transfer the amount you would like to be refunded by the State; optional field</li>
+<li>VAT Buffer No. - select the VAT Buffer (VAT Buffer should be in status released and be within the reporting filter that is set above)</li>
+<li>VIES No.  - select the EC Sales Report (EC Sales Report should be in status released and be within the reporting filter that is set above)</li>
+<li>Round to Whole Numbers - disabled for Latvia</li>
+<li>Show Amount in Additional Reporting Currency - should be used, if only EUR is not the Local Currency of the Company</li>
+<li>Prepared By- the responsible employee, who prepared the VAT Statement Appendix from the list of Employees. By selecting &quot;Prepared by&quot;, Employee card data are re-used: Name, Surname, Job title, Phone No.
 <img src="images/us_vat_VR_Export003.png" alt="alt">
-<img src="images/us_vat_VR_Sugg003.png" alt="alt"></li>
+<img src="images/vat_help_VR_Sugg003.png" alt="alt"></li>
 </ul>
 <ol start="4">
-<li>Noklikšķiniet pogu Labi un fails tiks sagatavots atvēršanai un saglabāts, lai izmantoto to augšupielādei EDS.
-<img src="images/us_vat_VR_Export002.png" alt="alt"></li>
+<li>Select Save, in order to save the file for further upload to EDS
+<img src="images/vat_help_VR_Export002.png" alt="alt"></li>
 </ol>
-<p><strong>Piezīme</strong></p>
-<p>PVN atgriešanas eksportu var veikt tikai, tad, ja uzstādījumos Uzņēmuma informācijas logā ir ievadīts uzņēmuma reģistrācijas numurs.</p>
+<p><strong>Note</strong></p>
+<p>Export of VAT Return requires Company Registration No. to be completed in Company information.</p>
 </article>
           </div>
           
@@ -615,7 +609,7 @@ Tiek veiktas izmaiņas sekojošos laukos:</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/elva-bc-projects/Test-Help/_git/Test-Help?path=lv-lv/articles/vat/vat.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://dev.azure.com/elva-bc-projects/Test-Help/_git/Test-Help?path=en-us/articles/vat/vat.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
