@@ -1,0 +1,907 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Key Usage Scenarios | Latvian Localization </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Key Usage Scenarios | Latvian Localization ">
+    <meta name="generator" content="docfx 2.48.1.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../.././images/elva_logo.jpg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="key-usage-scenarios">Key Usage Scenarios</h1>
+
+<h2 id="walkthrough-create-evaluation-company-and-import-configuration-package">Walkthrough: Create evaluation company and import configuration package</h2>
+<p><strong>About this walkthrough</strong>: Configuration package VAT-EVALUATION is to be imported into an evaluation company, in order to check the setup.</p>
+<p><strong>Roles</strong>: No specific user roles are required.</p>
+<p><strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+Cronus Latvia, SIA is required to report VAT according to Latvia local requirements. You are assigned to test the settings on an evaluation company before adding the settings to Cronus Latvia, SIA.</p>
+<p><strong>Availability:</strong> can be accessed from Search for Page or Report…</p>
+<p><strong>Pre-requisites:</strong> No pre-requisites required</p>
+<h3 id="create-evaluation-company">Create Evaluation Company</h3>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type Companies and select Companies from Lists
+<img src="images/us_vat_Comp.png" alt="alt"></li>
+<li>Press New,  select Create New Company, press Next
+<img src="images/us_vat_NewCo001.png" alt="alt"></li>
+<li>Enter company name, for example, VAT-EVALUATION; set Evaluation-Sample Data in field Select the Data and Setup to Get Started
+<img src="images/us_vat_NewCo002.png" alt="alt"></li>
+<li>Press Next, Next, Finish</li>
+<li>In My Settings, select your evaluation company
+<img src="images/us_vat_NewCo003.png" alt="alt"></li>
+</ol>
+<h3 id="import-configuration-package">Import configuration package</h3>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type Config. Packages and select Config. Packages from Pages and Tasks
+<img src="images/vat_help_confpack001.png" alt="alt"></li>
+<li>Import Package VAT-EVALUATION
+<img src="images/us_vat_confpack001.png" alt="alt"></li>
+<li>Select VAT-EVALUATION package from list of Config. Packages and press Apply Package.
+<img src="images/us_vat_confpack002.png" alt="alt"></li>
+</ol>
+<p>Configuration package VAT-EVALUATION consist of the following data:</p>
+<ul>
+<li>Countries/Regions - inserts currency codes for VAT Statement Appendix 1-2</li>
+<li>G/L Accounts -  inserts additional accounts for Purchase VAT in Chart of Accounts for local reverse charge on purchases calculated and deducted</li>
+<li>Company information - inserts Registration No. in Company information for purposes of creating export file with VAT Return and export file for VAT Statement Appendix 3</li>
+<li>General Ledger Setup - inserts setup (grouping parameters and tags) for preparation of VAT Statement Appendix 1-1, 1-2, 1-3</li>
+<li>VAT Statement Template - inserts VAT Statement Report ID &quot;70151475&quot;</li>
+<li>VAT Statement Name - creates new VAT Statement &quot;LV-VAT&quot;</li>
+<li>VAT Statement Line - inserts VAT Statement Lines for VAT Statement LV-VAT</li>
+<li>No. Series - inserts new No. Series &quot;LV-VAT-BUFF&quot; for VAT Statement Appendix 1-1, 1-2, 1-3</li>
+<li>No. Series Line - inserts new No. Series Lines for No. Series &quot;LV-VAT-BUFF&quot;</li>
+<li>VAT Product Posting Group - inserts new VAT Product Posting Group &quot;LV-VAT-REVERSE&quot;, that is used for local reverse charge items</li>
+<li>VAT Posting Setup - inserts related setup for VAT Product Posting Group &quot;LV-VAT-REVERSE&quot;</li>
+<li>VAT Reports Configuration - inserts predefined values for creation of VAT Statement Appendix 2 and VAT Return</li>
+</ul>
+<h2 id="walkthrough-how-to-create-vat-buffer">Walkthrough: How to create VAT Buffer</h2>
+<p><strong>About this walkthrough</strong>: VAT Buffer is used in order to prepare VAT Statement Appendixes</p>
+<ul>
+<li>VAT 1-1 Local purchase disclosure</li>
+<li>VAT 1-2 EU purchase disclosure</li>
+<li>VAT 1-3 Local sale disclosure</li>
+</ul>
+<p><strong>Roles</strong>: No specific user roles are required.</p>
+<p><strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+Cronus Latvia, SIA is required to report VAT according to Latvia local requirements. You are assigned to test the settings on an evaluation company before adding the settings to Cronus Latvia, SIA. Your task is to:</p>
+<ol>
+<li>create purchase and sales transactions in a period, that has no entries yet</li>
+<li>prepare VAT Statement Appendixes
+<ul>
+<li>VAT 1-1 Local purchase disclosure</li>
+<li>VAT 1-2 EU purchase disclosure</li>
+<li>VAT 1-3 Local sale disclosure</li>
+</ul>
+</li>
+</ol>
+<p><strong>Availability:</strong> can be accessed from Search for Page or Report…</p>
+<p><strong>Pre-requisites:</strong> In order to use the functionality, the following pre-requisites are required:</p>
+<p><strong>Complete Setup</strong></p>
+<p><strong>!</strong> Note that this setup is imported, when VAT-EVALUATION package is applied.</p>
+<ul>
+<li>Countries/Regions - inserts currency codes for VAT Appendix 1-2</li>
+<li>G/L Accounts -  inserts additional accounts for Purchase VAT in Chart of Accounts for local reverse charge on purchases calculated and deducted</li>
+<li>Company information - inserts Registration No. in Company information for purposes of VAT Return</li>
+<li>General Ledger Setup - inserts setup for preparation of VAT Statement Appendix 1-1, 1-2, 1-3</li>
+<li>VAT Statement Template - inserts VAT Statement Report ID</li>
+<li>VAT Statement Name - creates new VAT Statement LV-VAT</li>
+<li>VAT Statement Line - inserts VAT Statement Lines for VAT Statement LV-VAT</li>
+<li>No. Series - inserts new No. Series LV-VAT-BUFF for VAT Statement Appendix 1-1, 1-2, 1-3</li>
+<li>No. Series Line - inserts new No. Series Lines for No. Series LV-VAT-BUFF</li>
+<li>VAT Product Posting Group - inserts new VAT Product Posting Group LV-VAT-REVERSE, that is used for local reverse charge items</li>
+<li>VAT Posting Setup - inserts related setup for VAT Product Posting Group LV-VAT-REVERSE</li>
+<li>VAT Reports Configuration - inserts predefined values for creation of VAT Statement Appendix 2 and VAT Return</li>
+</ul>
+<p><strong>Complete VAT Registration No. for Vendors</strong></p>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type Vendors and select Vendors from Lists
+<img src="images/us_vat_vend001.png" alt="alt"></li>
+<li>Select Vendor 20000 and Edit Vendor's card
+<img src="images/us_vat_vend002.png" alt="alt"></li>
+<li>Complete VAT Registration No. &quot;GB123456789&quot; for this particular Vendor
+<img src="images/us_vat_vend003.png" alt="alt"></li>
+<li>Exit Vendor's card</li>
+<li>Select Vendor 40000 and Edit Vendor's card</li>
+<li>Complete VAT Registration No. &quot;GB123456799&quot; for this particular Vendor</li>
+<li>Exit Vendor's card</li>
+<li>Select Vendor 30000 and Edit Vendor's card</li>
+<li>Complete VAT Registration No. &quot;DE123456799&quot; for this particular Vendor</li>
+<li>Exit Vendor's card</li>
+</ol>
+<p><strong>Create Local Purchase Transaction where Purchase Invoice Total Excl. VAT &gt;150.00 LCY</strong></p>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type Purchase Invoices and select Purchase Invoices from the Lists
+<img src="images/us_vat_pur001.png" alt="alt"></li>
+<li>Create New Purchase Invoice
+<img src="images/us_vat_pur002.png" alt="alt"></li>
+<li>Complete Vendor Name by inserting Vendor 20000, enter any period that is free from transactions as Posting date, enter 20000-01 as Vendor Invoice No.
+<img src="images/us_vat_pur003.png" alt="alt"></li>
+<li>Complete Purchase Lines by inserting Item 1900-S, with quantity 10 and VAT Product Posting Group STANDARD
+<img src="images/us_vat_pur004.png" alt="alt"></li>
+<li>Post document</li>
+</ol>
+<p><strong>Create Local Purchase Transaction where Purchase Invoice Total Excl. VAT &lt;150.00 LCY</strong></p>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type Purchase Invoices and select Purchase Invoices from the Lists
+<img src="images/us_vat_pur001.png" alt="alt"></li>
+<li>Create New Purchase Invoice
+<img src="images/us_vat_pur002.png" alt="alt"></li>
+<li>Complete Vendor Name by inserting Vendor 20000, enter any period that is free from transactions as Posting date, enter 20000-02 as Vendor Invoice No.
+<img src="images/us_vat_pur003.png" alt="alt"></li>
+<li>Complete Purchase Lines by inserting Item 1928-S, with quantity 1 and VAT Product Posting Group STANDARD
+<img src="images/us_vat_pur005.png" alt="alt"></li>
+<li>Post document</li>
+</ol>
+<p><strong>Create Local Purchase Transactions where Purchase Invoice Total Excl. VAT &lt;150.00 LCY and Total Amount per Counterparty is &gt;150.00 LCY</strong></p>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type Purchase Invoices and select Purchase Invoices from the Lists
+<img src="images/us_vat_pur001.png" alt="alt"></li>
+<li>Create New Purchase Invoice
+<img src="images/us_vat_pur002.png" alt="alt"></li>
+<li>Complete Vendor Name by inserting Vendor 40000, enter any period that is free from transactions as Posting date, enter 40000-01 as Vendor Invoice No.
+<img src="images/us_vat_pur003.png" alt="alt"></li>
+<li>Complete Purchase Lines by inserting Item 1908-S, with quantity 1 and VAT Product Posting Group STANDARD
+<img src="images/us_vat_pur006.png" alt="alt"></li>
+<li>Post document</li>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type Purchase Invoices and select Purchase Invoices from the Lists
+<img src="images/us_vat_pur001.png" alt="alt"></li>
+<li>Create New Purchase Invoice
+<img src="images/us_vat_pur002.png" alt="alt"></li>
+<li>Complete Vendor Name by inserting Vendor 40000, enter any period that is free from transactions as Posting date, enter 40000-02 as Vendor Invoice No.
+<img src="images/us_vat_pur003.png" alt="alt"></li>
+<li>Complete Purchase Lines by inserting Item 1908-S, with quantity 1 and VAT Product Posting Group STANDARD
+<img src="images/us_vat_pur007.png" alt="alt"></li>
+<li>Post document</li>
+</ol>
+<p><strong>Create Local Purchase Transactions where Purchase Invoice Total Excl. VAT &lt;150.00 LCY and includes item that is subject to local reverse charge</strong></p>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type Purchase Invoices and select Purchase Invoices from the Lists
+<img src="images/us_vat_pur001.png" alt="alt"></li>
+<li>Create New Purchase Invoice
+<img src="images/us_vat_pur002.png" alt="alt"></li>
+<li>Complete Vendor Name by inserting Vendor 40000, enter any period that is free from transactions as Posting date, enter 40000-03 as Vendor Invoice No.
+<img src="images/us_vat_pur003.png" alt="alt"></li>
+<li>Complete Purchase Lines by inserting Item 1964-S, with quantity 1 and VAT Product Posting Group LV-VAT-REVERSE
+<img src="images/us_vat_pur008.png" alt="alt"></li>
+<li>Post document</li>
+</ol>
+<p><strong>Create 2 EU Purchase Transactions</strong></p>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type Purchase Invoices and select Purchase Invoices from the Lists
+<img src="images/us_vat_pur001.png" alt="alt"></li>
+<li>Create New Purchase Invoice
+<img src="images/us_vat_pur002.png" alt="alt"></li>
+<li>Complete Vendor Name by inserting Vendor 30000, enter any period that is free from transactions as Posting date, enter 30000-01 as Vendor Invoice No.
+<img src="images/us_vat_pur003.png" alt="alt"></li>
+<li>Complete Purchase Lines by inserting Item 1953-W, with quantity 10, Unit Price Excl. VAT 40.00 LCY and VAT Product Posting Group STANDARD
+<img src="images/us_vat_pur009.png" alt="alt"></li>
+<li>Post document</li>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type Purchase Invoices and select Purchase Invoices from the Lists
+<img src="images/us_vat_pur001.png" alt="alt"></li>
+<li>Create New Purchase Invoice
+<img src="images/us_vat_pur002.png" alt="alt"></li>
+<li>Complete Vendor Name by inserting Vendor 30000, enter any period that is free from transactions as Posting date, enter 30000-02 as Vendor Invoice No.
+<img src="images/us_vat_pur003.png" alt="alt"></li>
+<li>Complete Purchase Lines by inserting Item 1900-S, with quantity 1 and VAT Product Posting Group REDUCED
+<img src="images/us_vat_pur010.png" alt="alt"></li>
+<li>Post document</li>
+</ol>
+<p><strong>Complete VAT Registration No. for Customers</strong></p>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type Customers and select Customers from Lists
+<img src="images/us_vat_cust001.png" alt="alt"></li>
+<li>Select Customer 10000 and Edit Customer's card
+<img src="images/us_vat_cust002.png" alt="alt"></li>
+<li>Complete VAT Registration No. &quot;GB234567890&quot; for this particular Customer
+<img src="images/us_vat_cust003.png" alt="alt"></li>
+<li>Exit Customer's card</li>
+<li>Select Customer 30000 and Edit Customer's card</li>
+<li>Complete VAT Registration No. &quot;DE234567890&quot; for this particular Customer</li>
+<li>Exit Customer's card</li>
+</ol>
+<p><strong>Create Local Sale Transaction where Sales Invoice Total Excl. VAT &gt;150.00 LCY</strong></p>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type Sales Invoices and select Sales Invoices from the Lists
+<img src="images/us_vat_sal001.png" alt="alt"></li>
+<li>Create New Sales Invoice
+<img src="images/us_vat_sal002.png" alt="alt"></li>
+<li>Complete Customer Name by inserting Customer 10000, enter any period that is free from transactions as Posting date, enter 10000-01 as External Doc. No.
+<img src="images/us_vat_sal003.png" alt="alt"></li>
+<li>Complete Sales Lines by inserting Item 1900-S, with quantity 2 and VAT Product Posting Group STANDARD
+<img src="images/us_vat_sal004.png" alt="alt"></li>
+<li>Post document</li>
+</ol>
+<p><strong>Create Local Sale Transaction where Sales Invoice Total Excl. VAT &gt;150.00 LCY for a counterparty who is not registered as VAT payer</strong></p>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type Sales Invoices and select Sales Invoices from the Lists
+<img src="images/us_vat_sal001.png" alt="alt"></li>
+<li>Create New Sales Invoice
+<img src="images/us_vat_sal002.png" alt="alt"></li>
+<li>Complete Customer Name by inserting Customer 20000, enter any period that is free from transactions as Posting date, enter 20000-01 as External Doc. No.
+<img src="images/us_vat_sal003.png" alt="alt"></li>
+<li>Complete Sales Lines by inserting Item 1900-S, with quantity 2 and VAT Product Posting Group STANDARD
+<img src="images/us_vat_sal005.png" alt="alt"></li>
+<li>Post document</li>
+</ol>
+<p><strong>Create Local Sale Transaction where Sales Invoice Total Excl. VAT &lt;150.00 LCY</strong></p>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type Sales Invoices and select Sales Invoices from the Lists
+<img src="images/us_vat_sal001.png" alt="alt"></li>
+<li>Create New Sales Invoice
+<img src="images/us_vat_sal002.png" alt="alt"></li>
+<li>Complete Customer Name by inserting Customer 10000, enter any period that is free from transactions as Posting date, enter 10000-02 as External Doc. No.
+<img src="images/us_vat_sal003.png" alt="alt"></li>
+<li>Complete Purchase Lines by inserting Item 1928-S, with quantity 1 and VAT Product Posting Group STANDARD
+<img src="images/us_vat_sal006.png" alt="alt"></li>
+<li>Post document</li>
+</ol>
+<p><strong>Create Local Sales Transactions where Sales Invoice Total Excl. VAT &lt;150.00 LCY and includes item that is subject to local reverse charge</strong></p>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type Sales Invoices and select Sales Invoices from the Lists
+<img src="images/us_vat_sal001.png" alt="alt"></li>
+<li>Create New Sales Invoice
+<img src="images/us_vat_sal002.png" alt="alt"></li>
+<li>Complete Customer Name by inserting Customer 10000, enter any period that is free from transactions as Posting date, enter 10000-03 as External Doc. No.
+<img src="images/us_vat_sal003.png" alt="alt"></li>
+<li>Complete Purchase Lines by inserting Item 1964-S, with quantity 1 and VAT Product Posting Group LV-VAT-REVERSE
+<img src="images/us_vat_sal007.png" alt="alt"></li>
+<li>Post document</li>
+</ol>
+<h3 id="create-new-vat-buffer">Create New VAT Buffer</h3>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type VAT Buffer and select VAT Buffer from Tasks
+<img src="images/vat_help_searchVB.png" alt="alt"></li>
+<li>VAT Buffer List - create New VAT Buffer
+<img src="images/vat_help_VB_new.png" alt="alt"></li>
+</ol>
+<p><strong>Complete General Fast Tab</strong></p>
+<ol>
+<li>VAT Buffer No. should come automatically from General Ledger Setup. If it is not completed, enter the VAT Buffer No. manually</li>
+<li>Description - enter the description of the VAT Buffer, for example, &quot;2020 April&quot;</li>
+<li>From Date - enter period starting date for which the VAT Statement Appendix is prepared. For example, &quot;01/04/2020&quot;</li>
+<li>To Date - enter period starting date for which the VAT Statement Appendix is prepared. For example, &quot;30/04/2020&quot;
+<img src="images/us_vat_VB_Gen.png" alt="alt"></li>
+</ol>
+<p><strong>Complete Setup Fast Tab</strong></p>
+<ol>
+<li>G/L Account No. Filter (Inland) - enter VAT Accounts that are used for local purchase transactions and inserted in VAT Posting Setup as Purchase VAT Accounts.
+Enter &quot;5630|5632&quot;</li>
+<li>G/L Account No. Filter (EU) - enter VAT Accounts that are used for EU purchase transactions and inserted in VAT Posting Setup as Purchase VAT Accounts.
+Enter &quot;5633|5634&quot;</li>
+<li>G/L Account No. Filter (Sales) - enter VAT Accounts that are used for local sales transactions and inserted in VAT Posting Setup as Sales VAT Accounts.
+Enter &quot;5610&quot;</li>
+<li>G/L Account No. Filter (Sales 0%) - enter Sales Accounts that are used for  sales transactions with zero VAT rate.
+Enter &quot;6110&quot;</li>
+<li>Transaction Limit - enter the limit of transaction amount, below which the individual transactions should be grouped together; this limit may be entered in General Ledger Setup. Should be set to 150.00 LCY</li>
+<li>Partner Limit - enter the limit of transaction amount, above which the transactions should be grouped per Partner; this limit may be entered in General Ledger Setup. Should be set to 150.00 LCY</li>
+<li>Report Document - select which document number is to be used as Report Document No. and disclosed in VAT Statement Appendix  &quot;External Document No., Document No.&quot; or &quot;Document No.&quot;. Should be set to &quot;External Document No., Document No.&quot;.</li>
+<li>Group Partner By - select whether the entries should be grouped by &quot;VAT Registration No.&quot;
+<img src="images/us_vat_VB_Set.png" alt="alt"></li>
+</ol>
+<p><strong>Create Lines</strong></p>
+<ol>
+<li>In the Ribbon press &quot;Suggest Lines&quot; function and OK
+<img src="images/us_vat_VB_Sug001.png" alt="alt">
+<img src="images/vat_help_VB_Sugg2.png" alt="alt"></li>
+<li>The VAT Buffer gets populated by transaction lines, that contain the following information:
+<img src="images/us_vat_VB_Sug002.png" alt="alt"></li>
+</ol>
+<p><strong>Analysis of Results</strong></p>
+<p>The following results are achieved:</p>
+<ul>
+<li>1st line - local purchase with the Vendor Invoice No. 20000-01 is not grouped (checkmark in No Grouping field), because the Purchase Invoice Total Excluding VAT is &gt;150.00 LCY, that is the set Transaction Limit in General Ledger Setup. Also this line has a Business Type &quot;A&quot;, that comes from VAT Posting Setup as combination of VAT Business Posting Group &quot;DOMESTIC&quot; and VAT Product Posting Group &quot;STANDARD&quot;. Business Type is used in VAT Statement Appendix 1-1.</li>
+<li>2nd line - local purchase with the Invoice No. 40000-03 is not grouped (checkmark in No Grouping field), because the Purchase Invoice includes an item that is subject to reverse charge. VAT Posting Setup for combination of VAT Business Posting Group &quot;DOMESTIC&quot; and VAT Product Posting Group &quot;LV-VAT-REVERSE&quot; there is a checkmark &quot;No Grouping in VAT Buffer&quot; and reference to Business Type &quot;R&quot;. Business Type. is used in VAT Statement Appendix 1-1.</li>
+<li>3rd line - local purchase transactions for the Vendor with VAT Registration No. GB123456789 do not have a report document no., because individual transaction does not exceed the Transaction threshold of 150.00 LCY excl.VAT, but the total amount of transactions per counterparty exceeds Partner Limit 150.00 LCY. Therefore this line has Business Type &quot;V&quot;, that comes from General Ledger Setup as transactions Business Type (Partner).</li>
+<li>4th line - local purchase transactions are grouped and do not have Partner No. or Partner Name, because individual transactions do not exceed Transaction Limit of 150.00 LCY, neither they total up a sum of transactions that reach the Partner Limit. Therefore this line has Business Type &quot;T&quot;, that comes from General Ledger Setup as transactions Business Type (w. Reg. No.).</li>
+<li>5th line and 6th line - EU transactions are disclosed by invoices despite any thresholds. These entries are included in VAT Statement Appendix 1-2.</li>
+<li>7th line - local sales with the Invoice No. 10000-01 is not grouped (checkmark in No Grouping field), because the Sales Invoice Total Excluding VAT is &gt;150.00 LCY, that is the set Transaction Limit in General Ledger Setup. Also this line has a VAT Declaration Line No. &quot;41&quot;, that comes from VAT Posting Setup as combination of VAT Business Posting Group &quot;DOMESTIC&quot; and VAT Product Posting Group &quot;STANDARD&quot;. VAT Declaration Line No. is used in VAT Statement Appendix 1-3.</li>
+<li>8th line - local sales with the Invoice No. 10000-03 is not grouped (checkmark in No Grouping field), because the Sales Invoice includes an item that is subject to reverse charge. VAT Posting Setup for combination of VAT Business Posting Group &quot;DOMESTIC&quot; and VAT Product Posting Group &quot;LV-VAT-REVERSE&quot; there is a checkmark &quot;No Grouping in VAT Buffer&quot; and reference to VAT Declaration Line No. &quot;411&quot;. VAT Declaration Line No. is used in VAT Statement Appendix 1-3.</li>
+<li>9th line - local sales transactions are grouped and do not have Partner No. or Partner Name, because Customer does not have a VAT Registration No. Therefore this line has Business Type &quot;X&quot;, that comes from General Ledger Setup as transactions Business Type (wo. Reg. No.).</li>
+<li>10th line - local sales transactions are grouped and do not have Partner No. or Partner Name, because individual transactions do not exceed Transaction Limit of 150.00 LCY, neither they total up a sum of transactions that reach the Partner Limit. Therefore this line has Business Type &quot;T&quot;, that comes from General Ledger Setup as transactions Business Type (w. Reg. No.).</li>
+</ul>
+<p><strong>Additional Explanation for lines created</strong></p>
+<ul>
+<li>Line Type - for VAT reporting purposes
+<ul>
+<li>Inland - indicates Local purchases</li>
+<li>EU - indicates EU purchases</li>
+<li>Sales - indicates Local sales</li>
+</ul>
+</li>
+<li>Line No.- line number</li>
+<li>G/L Entry No. - indicates GL entry number or is blank for several deals in one row</li>
+<li>VAT Entry No.- indicate VAT entry number or is blank for several deals in one row</li>
+<li>Posting Date - indicate posting date or is blank for several deals in one row</li>
+<li>Document Date- indicate date of the document or is blank for several deals in one row</li>
+<li>Transaction No. - indicate the number of transaction</li>
+<li>Skip Entry- if checked, then entry is not included for VAT reporting</li>
+<li>Report Document No. - number of the source document</li>
+<li>Document No. - number assigned by NAV</li>
+<li>External Document No.- external document number</li>
+<li>Document Type- indicates the type of the document</li>
+<li>Payment - in case VAT is calculated as a result of prepayment</li>
+<li>Invoice - in case VAT is calculated as a result of purchase/sales transaction</li>
+<li>Credit Memo - in case VAT is calculated as a result of purchase/sales return transaction</li>
+<li>Business Type- according to codes of Tax Administration</li>
+<li>Invoice Is Custom Declaration- displays the invoice as customs declaration in VAT buffer</li>
+<li>No Grouping - displays the selected entry without grouping</li>
+<li>EU 3-Party Trade- indicates whether the deal is classified as third party trade
+<ul>
+<li>Yes</li>
+<li>No</li>
+</ul>
+</li>
+<li>VAT %- indicates the VAT interest rate</li>
+<li>VAT Declaration Line No. - indicates the VAT declaration line number</li>
+<li>EU Service - indicates whether the deal is considered as service within EU</li>
+<li>Vendor No. - vendor number from Vendor List</li>
+<li>Customer No.- customer number from Customer List</li>
+<li>Partner No.- Partner number, if transactions involve Companies that are considered as one VAT Group</li>
+<li>Partner Name- Partner name</li>
+<li>Partner VAT Registration No.- Partner VAT No.</li>
+<li>Country/Region Code -</li>
+<li>Base Amount (LCY)- VAT taxable amount in Local currency</li>
+<li>VAT Amount (LCY)- VAT amount in Local currency</li>
+<li>Amount (LCY) - total amount in Local currency</li>
+<li>Currency Code - currency code</li>
+<li>Currency Factor- exchange rate, if deal currency differs from local currency</li>
+<li>Base Amount</li>
+<li>VAT Amount</li>
+<li>Amount</li>
+<li>Report Document Type</li>
+<li>Invoice</li>
+<li>Cash Payment</li>
+<li>Bank Payment</li>
+<li>Credit Memo</li>
+<li>Other</li>
+<li>Custom Declaration</li>
+<li>Group Line No. - group line number within Group level</li>
+<li>Grouping Level No. - group level number</li>
+<li>System-Created- checked if line is suggested by Latvian VAT Reporting Localization, unchecked if user made modifications to line</li>
+</ul>
+<h3 id="print-vat-statement-appendix-1-1-1-2-1-3">Print VAT Statement Appendix 1-1, 1-2, 1-3</h3>
+<ol>
+<li>VAT Buffer status needs to be set to Released, using &quot;Release&quot; button in the Ribbon.</li>
+<li>In the Ribbon press &quot;Print VAT Appendix&quot;
+<img src="images/vat_help_VB_print001.png" alt="alt"></li>
+<li>Select &quot;Prepared by&quot; - select &quot;AH&quot; - the responsible employee, who prepared the VAT Statement Appendix from the list of Employees. By selecting &quot;Prepared by&quot;, Employee card data are re-used: Name, Surname, Job title, Phone No.
+<img src="images/us_vat_VB_print002.png" alt="alt"></li>
+<li>VAT Statement Appendix can be sent to Preview or printed as PDF, Excel, Word.</li>
+</ol>
+<h2 id="walkthrough-how-to-create-ec-sales-report">Walkthrough: How to create EC Sales Report</h2>
+<p><strong>About this walkthrough</strong>: EC Sales List Report is used, in order to prepare VAT Statement Appendixes VAT 2 EU sales disclosure</p>
+<p><strong>Roles</strong>: No specific user roles are required.</p>
+<p><strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+Cronus Latvia, SIA is required to report VAT according to Latvia local requirements. You are assigned to test the settings on an evaluation company before adding the settings to Cronus Latvia, SIA. Your task is to:</p>
+<ol>
+<li>create sales transactions for Customers located in EU</li>
+<li>prepare VAT Statement Appendix VAT 2 EU sale disclosure</li>
+</ol>
+<p><strong>Availability:</strong> can be accessed from Search for Page or Report</p>
+<p><strong>Pre-requisite:</strong> in order to use the functionality, the following pre-requisites are required:</p>
+<p><strong>Complete Setup</strong>
+<strong>!</strong> Note that this setup is imported, when VAT-EVALUATION package is applied.</p>
+<ol>
+<li>VAT Reports Configuration - inserts predefined values for creation of VAT Statement Appendix 2 and VAT Return</li>
+<li>VAT Report Setup - No. Series should be completed for creation of EC Sales List Reports</li>
+</ol>
+<p><strong>Complete VAT Registration No. for Customers</strong></p>
+<ol>
+<li><p>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></p>
+</li>
+<li><p>Type Customers and select Customers from Lists
+<img src="images/us_vat_cust001.png" alt="alt"></p>
+</li>
+<li><p>Select Customer 40000 and Edit Customer's card
+<img src="images/us_vat_cust002.png" alt="alt"></p>
+</li>
+<li><p>Complete VAT Registration No. &quot;DE234567890&quot; for this particular Customer
+<img src="images/us_vat_cust004.png" alt="alt"></p>
+</li>
+<li><p>Exit Customer's card</p>
+</li>
+</ol>
+<p><strong>Create EU Sales Transactions</strong></p>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type Sales Invoices and select Sales Invoices from the Lists
+<img src="images/us_vat_sal001.png" alt="alt"></li>
+<li>Create New Sales Invoice
+<img src="images/us_vat_sal002.png" alt="alt"></li>
+<li>Complete Customer Name by inserting Customer 40000, enter any period that is free from transactions as Posting date, enter 40000-01 as External Doc. No.
+<img src="images/us_vat_sal003.png" alt="alt"></li>
+<li>Complete Sales Lines by inserting Item 1900-S, with quantity 1 and VAT Product Posting Group STANDARD
+<img src="images/us_vat_sal008.png" alt="alt"></li>
+<li>Post document</li>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type Sales Invoices and s from the Lists
+<img src="images/us_vat_sal001.png" alt="alt"></li>
+<li>Create New Sales Invoice
+<img src="images/us_vat_sal002.png" alt="alt"></li>
+<li>Complete Customer Name by inserting Customer 40000, enter any period that is free from transactions as Posting date, enter 40000-02 as External Doc. No.
+<img src="images/us_vat_sal003.png" alt="alt"></li>
+<li>Complete Sales Lines by inserting Item 1920-S, with quantity 1 and VAT Product Posting Group REDUCED
+<img src="images/us_vat_sal009.png" alt="alt"></li>
+<li>Post document</li>
+</ol>
+<h3 id="create-new-ec-sales-list-reports-vat-statement-appendix-vat-2-eu-sales-disclosure">Create New EC Sales List Reports VAT Statement Appendix VAT 2 EU sales disclosure</h3>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type EC Sales List Reports and select Sales List Reports from Reports and Analysis
+<img src="images/vat_help_searchEC.png" alt="alt"></li>
+<li>EC Sales List Reports - create New EC Sales List Report
+<img src="images/vat_help_EC_new.png" alt="alt"></li>
+</ol>
+<p><strong>Complete General Fast Tab</strong></p>
+<ol>
+<li>No. should come automatically from VAT Report Setup. If it is not completed, enter the No. Series manually</li>
+<li>VAT Report Version - select EC Sales List Report Version</li>
+<li>VAT Report Type</li>
+</ol>
+<ul>
+<li>Standard - for VAT Statement Appendix VAT2</li>
+</ul>
+<ol start="4">
+<li>Period Year - enter &quot;2020</li>
+<li>Period Type - select &quot;Month&quot;</li>
+<li>Period No. - enter &quot;4&quot;
+<img src="images/us_vat_EC_gen.png" alt="alt"></li>
+</ol>
+<p><strong>Create Lines</strong></p>
+<ol>
+<li>In the Ribbon press &quot;Suggest Lines&quot; function
+<img src="images/vat_help_EC_Sugg001.png" alt="alt"></li>
+</ol>
+<p><strong>Analysis of Results</strong></p>
+<p>The following results are achieved:</p>
+<ul>
+<li>1st line - EU sales transaction with Customer, where B2B Goods are sold</li>
+<li>2nd line - EU sales transaction with Customer, where B2B Services are sold
+<img src="images/us_vat_EC_Sugg001.png" alt="alt"></li>
+</ul>
+<p><strong>Additional Explanation for lines created</strong></p>
+<ul>
+<li>Line No.- report Row No.</li>
+<li>Report No.  - indicates EC Sales List Report No.</li>
+<li>Country Code</li>
+<li>Customer VAT. Reg. No. - indicates Customer VAT Registration No.</li>
+<li>Total Value of Supplies</li>
+<li>Transaction Indicator - specifies B2B Goods or B2B Services</li>
+<li>Line Type - specifies whether the line is new, corrective or cancelled</li>
+</ul>
+<h3 id="print-vat-statement-appendix-2">Print VAT Statement Appendix 2</h3>
+<ol>
+<li>EC Sales List Report status needs to be set to Released, using &quot;Release&quot; button in the Ribbon.</li>
+<li>In the Ribbon press &quot;Print&quot;</li>
+<li>Select &quot;Prepared by&quot; - select &quot;AH&quot;- the responsible employee, who prepared the VAT Statement Appendix from the list of Employees. By selecting &quot;Prepared by&quot;, Employee card data are re-used: Name, Surname, Job title, Phone No.</li>
+<li>VAT Statement Appendix can be sent to Preview or printed as PDF, Excel, Word.
+<img src="images/vat_help_EC_print001.png" alt="alt">
+<img src="images/vat_help_EC_print002.png" alt="alt"></li>
+</ol>
+<h2 id="walkthrough-how-to-create-and-print-vat-statement">Walkthrough: How to create and print VAT Statement</h2>
+<p><strong>About this walkthrough</strong>: VAT Statement is used to set filters for VAT or General Ledger Entries, in order to prepare VAT Return.</p>
+<p><strong>Roles</strong>: No specific user roles are required.</p>
+<p><strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+Cronus Latvia, SIA is required to report VAT according to Latvia local requirements. You are assigned to test the settings on an evaluation company before adding the settings to Cronus Latvia, SIA. Your task is to:</p>
+<ol>
+<li>create sales transaction that is subject to VAT 0% for local Customer</li>
+<li>prepare VAT Statement</li>
+</ol>
+<p><strong>Availability:</strong> can be accessed from Search for Page or Report</p>
+<p><strong>Pre-requisite:</strong> in order to use the functionality, the following pre-requisites are required:</p>
+<p><strong>Completed Setup</strong>
+<strong>!</strong> Note that this setup is imported, when VAT-EVALUATION package is applied.</p>
+<ul>
+<li>VAT Statement Template</li>
+<li>VAT Statement</li>
+<li>VAT Statement Lines</li>
+</ul>
+<p><strong>All transactions listed in previous walkthroughs</strong></p>
+<ul>
+<li>Local purchases</li>
+<li>EU purchases</li>
+<li>Local sales</li>
+<li>EU sales</li>
+</ul>
+<p><strong>Create sales transaction that is subject to VAT 0% for local Customer</strong></p>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type Sales Invoices and select Sales Invoices from the Lists
+<img src="images/us_vat_sal001.png" alt="alt"></li>
+<li>Create New Sales Invoice
+<img src="images/us_vat_sal002.png" alt="alt"></li>
+<li>Complete Customer Name by inserting Customer 10000, enter any period that is free from transactions as Posting date, enter 10000-04 as External Doc. No.
+<img src="images/us_vat_sal003.png" alt="alt"></li>
+<li>Complete Sales Lines by inserting G/L Account 6710, with quantity 1 and VAT Product Posting Group ZERO, Unit Price Excl.VAT 100.00 LCY
+<img src="images/us_vat_sal011.png" alt="alt"></li>
+<li>Post document</li>
+</ol>
+<h3 id="print-vat-statement">Print VAT Statement</h3>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type VAT Statements and select VAT Statements from Tasks
+<img src="images/vat_help_searchStmt.png" alt="alt"></li>
+<li>Select Batch Name - LV-VAT, and press OK
+<img src="images/vat_help_stmt001.png" alt="alt">
+<img src="images/us_vat_stmt002.png" alt="alt"></li>
+<li>Press Print
+<img src="images/us_vat_stmt_print001.png" alt="alt"></li>
+<li>Complete Printing Options:</li>
+</ol>
+<ul>
+<li>Year - enter year of the reporting period. Enter &quot;2020&quot;</li>
+<li>Period Type - select period type. Select &quot;Month&quot;</li>
+<li>Period No. - enter period no.. Enter &quot;4&quot;</li>
+<li>Prepared By- select &quot;AH&quot;- the responsible employee, who prepared the VAT Statement Appendix from the list of Employees. By selecting &quot;Prepared by&quot;, Employee card data are re-used: Name, Surname, Job title, Phone No.; Select &quot;AH&quot;</li>
+</ul>
+<p>Optional fields that are to be used only on condition when VAT Statement lines are based on VAT entries</p>
+<ul>
+<li>Include VAT Entries - should be used, if only VAT Statement is based on VAT Entries
+<ul>
+<li>Open</li>
+<li>Closed</li>
+<li>Open and Closed - recommended option</li>
+</ul>
+</li>
+<li>Include VAT Entries - should be used, if only VAT Statement is based on VAT Entries
+<ul>
+<li>Before and Within Period</li>
+<li>Within Period - recommended option
+<img src="images/us_vat_stmt_print002.png" alt="alt"></li>
+</ul>
+</li>
+</ul>
+<ol start="6">
+<li>Review the VAT Statement printed
+<img src="images/us_vat_stmt_print003.png" alt="alt"></li>
+</ol>
+<p><strong>Analysis of Results</strong></p>
+<p><em>Note</em></p>
+<p>Only LV specific rows are analyzed.</p>
+<ul>
+<li>G/L Amount type - is used in Row No. 1020 (not visible on the printout) and set to &quot;Debit&quot;, so that only debit amounts are included in the filter</li>
+<li>Math - is used in Row No. 1030 (not visible on the printout) and Row No.66</li>
+</ul>
+<p>Row No. 1030 calculates the ratio between Row No.49 and Row No.40.</p>
+<p>Row No. 66 uses the calculated ratio and applies it to Row No.1040</p>
+<ul>
+<li>Rounding Type for Row No. 1030 is set to &quot;Up&quot;, so that the ratio calculated is rounded up for further calculus.</li>
+<li>Round To for Row No. 1030 is set to &quot;1.00&quot;, because it needs to be rounded to whole per cents.</li>
+<li>Zero if - is used for Row No. 70 and Row No. 80</li>
+</ul>
+<p>Row No. 70 (tax amount to be repaid from the State) is printed as &quot;0.00&quot; if the calculated value is negative.</p>
+<p>Row No. 80 (tax amount to be paid to the State) is printed as &quot;0.00&quot; if the value calculated is positive</p>
+<h2 id="walkthrough-how-to-export-prepare-vat-statement-together-with-vat-statement-appendixes-1-1-1-2-1-3-2-for-electronic-declaration-system">Walkthrough: How to export prepare VAT Statement together with VAT Statement Appendixes 1-1, 1-2, 1-3, 2 for Electronic Declaration System</h2>
+<p><strong>About this walkthrough</strong>: VAT Statement is used to set filters for VAT or General Ledger Entries, in order to prepare VAT Return.
+<strong>Roles</strong>: No specific user roles are required.</p>
+<p><strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+Cronus Latvia, SIA is required to report VAT according to Latvia local requirements. You are assigned to test the settings on an evaluation company before adding the settings to Cronus Latvia, SIA. Your task is to:</p>
+<ol>
+<li>prepare VAT Return</li>
+<li>export VAT Return with VAT Buffer and EC Sales List Report to EDS</li>
+</ol>
+<p><strong>Availability:</strong> can be accessed from Search for Page or Report…</p>
+<p><strong>Pre-requisites:</strong> In order to use the functionality, the following steps are required:</p>
+<ul>
+<li>Export of VAT Return requires Company Registration No. to be completed in Company information.</li>
+<li>VAT Statement template - VAT Statement Report ID - 70151475</li>
+</ul>
+<p><strong>Completed Setup</strong>
+<strong>!</strong> Note that this setup is imported, when VAT-EVALUATION package is applied.</p>
+<ul>
+<li>VAT Statement</li>
+<li>VAT Statement Template</li>
+<li>VAT Report Setup</li>
+<li>VAT Reports Configuration</li>
+</ul>
+<p><img src="images/vat_help_stmt_templ.png" alt="alt"></p>
+<p><strong>Steps:</strong></p>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type VAT Return and select VAT Return from Reports and Analysis
+<img src="images/vat_help_searchVR.png" alt="alt"></li>
+<li>VAT Returns List - create VAT Return
+<img src="images/vat_help_VR_new.png" alt="alt"></li>
+</ol>
+<p><strong>Complete General Fast Tab</strong></p>
+<ol>
+<li>No. should come automatically from VAT Report Setup. If it is not completed, enter the No. Series manually</li>
+<li>Version - select Report Version</li>
+<li>Period Year - is completed by Suggest Lines Process</li>
+<li>Period Type - is completed by Suggest Lines Process</li>
+<li>Period No. - is completed by Suggest Lines Process</li>
+</ol>
+<p><img src="images/vat_help_VR_Gen.png" alt="alt"></p>
+<p><strong>Create Lines</strong></p>
+<ol>
+<li>In the Ribbon press &quot;Suggest Lines&quot; function
+<img src="images/vat_help_VR_Sugg001.png" alt="alt"></li>
+<li>Complete the Criteria</li>
+</ol>
+<ul>
+<li>Include VAT Entries - set to Open and Closed</li>
+<li>Include VAT Entries - set to Within Period</li>
+<li>VAT Statement Template - set to VAT</li>
+<li>VAT Statement Name - set to LV-VAT</li>
+<li>Period Year - enter &quot;2020&quot;</li>
+<li>Period Type - select period type &quot;Month&quot;</li>
+<li>Period No. - enter period no. &quot;4&quot;</li>
+<li>Start Date - completed by system from the criteria chosen above</li>
+<li>End Date - completed by system from the criteria chosen above
+<img src="images/us_vat_VR_Sugg002.png" alt="alt"></li>
+</ul>
+<p><strong>Explanation for lines created</strong></p>
+<ul>
+<li>Row No. - lines of VAT Statement that correspond to Line No.</li>
+<li>Description - description from VAT Statement Lines</li>
+<li>Box No. - lines of VAT Statement that correspond to Box No.; line code according to Electronic Declarations System</li>
+<li>Amount - line amount
+<img src="images/us_vat_VR_Sugg003.png" alt="alt"></li>
+</ul>
+<h3 id="export-vat-return-with-appendixes-to-eds">Export VAT Return with Appendixes to EDS</h3>
+<ol>
+<li>VAT Return status needs to be set to Released, using &quot;Release&quot; button in the Ribbon.</li>
+<li>In the Ribbon press &quot;Submit&quot;</li>
+<li>Complete Export Options:
+<img src="images/us_vat_VR_Export003.png" alt="alt"></li>
+</ol>
+<ul>
+<li>Year - enter &quot;2020&quot;</li>
+<li>Period Type - select period type &quot;Month&quot;</li>
+<li>Period No. - enter period no. &quot;4&quot;</li>
+<li>Overpaid VAT Amount - this can be completed manually, if only needed to appear on the printout; this amount can be entered in Electronic Declaration System directly; optional field</li>
+<li>Refund VAT Amount - this can be completed manually, if only needed to appear on the printout; this amount can be entered in Electronic Declaration System directly; optional field</li>
+<li>Transfer to Bank Account - select a bank account to which the State Revenue Service should transfer the amount you would like to be refunded by the State; optional field</li>
+<li>VAT Buffer No. - select the VAT Buffer (VAT Buffer should be in status released and be within the reporting filter that is set above)</li>
+<li>VIES No.  - select the EC Sales Report (EC Sales Report should be in status released and be within the reporting filter that is set above)</li>
+<li>Round to Whole Numbers - disabled for Latvia</li>
+<li>Show Amount in Additional Reporting Currency - should be used, if only EUR is not the Local Currency of the Company</li>
+<li>Prepared By- select &quot;AH&quot;-  the responsible employee, who prepared the VAT Statement Appendix from the list of Employees. By selecting &quot;Prepared by&quot;, Employee card data are re-used: Name, Surname, Job title, Phone No.
+<img src="images/us_vat_VR_Export002.png" alt="alt"></li>
+</ul>
+<ol start="4">
+<li>Select Save, in order to save the file for further upload to EDS
+<img src="images/vat_help_VR_Export002.png" alt="alt"></li>
+</ol>
+<h2 id="walkthrough-how-to-create-ec-sales-report-correction">Walkthrough: How to create EC Sales Report Correction</h2>
+<p><strong>About this walkthrough</strong>: EC Sales List Report is used, in order to prepare VAT Statement Appendixes VAT 3 Correction of EU sales disclosure</p>
+<p><strong>Roles</strong>: No specific user roles are required.</p>
+<p><strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+Cronus Latvia, SIA is required to report VAT according to Latvia local requirements. You are assigned to test the settings on an evaluation company before adding the settings to Cronus Latvia, SIA. Your task is to:</p>
+<ol>
+<li>create sales transaction for Customers located in EU</li>
+<li>prepare VAT Statement Appendix VAT 3 Correction of EU sale disclosure</li>
+</ol>
+<p><strong>Availability:</strong> can be accessed from Search for Page or Report</p>
+<p><strong>Pre-requisite:</strong> in order to use the functionality, the following pre-requisites are required:</p>
+<p><em>Complete Setup</em>
+<strong>!</strong> Note that this setup is imported, when VAT-EVALUATION package is applied.</p>
+<ol>
+<li>VAT Reports Configuration - inserts predefined values for creation of VAT Statement Appendix 3 and VAT Return</li>
+<li>VAT Report Setup - No. Series should be completed for creation of EC Sales List Reports</li>
+</ol>
+<p><strong>Create EU Sales Transactions</strong></p>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type Sales Invoices and select Sales Invoices from the Lists
+<img src="images/us_vat_sal001.png" alt="alt"></li>
+<li>Create New Sales Invoice
+<img src="images/us_vat_sal002.png" alt="alt"></li>
+<li>Complete Customer Name by inserting Customer 40000, enter any period that is free from transactions as Posting date, enter 40000-03 as External Doc. No.
+<img src="images/us_vat_sal003.png" alt="alt"></li>
+<li>Complete Sales Lines by inserting Item 1896-S, with quantity 1 and VAT Product Posting Group STANDARD
+<img src="images/us_vat_sal010.png" alt="alt"></li>
+<li>Post document</li>
+</ol>
+<h3 id="create-new-ec-sales-list-reports-vat-statement-appendix-vat-3-correction-of-eu-sales-disclosure">Create New EC Sales List Reports VAT Statement Appendix VAT 3 Correction of EU sales disclosure</h3>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type EC Sales List Reports and select Sales List Reports from Reports and Analysis
+<img src="images/vat_help_searchEC.png" alt="alt"></li>
+<li>EC Sales List Reports - create New EC Sales List Report
+<img src="images/vat_help_EC_new.png" alt="alt"></li>
+</ol>
+<p><strong>Complete General Fast Tab</strong></p>
+<ol>
+<li>No. should come automatically from VAT Report Setup. If it is not completed, enter the No. Series manually</li>
+<li>VAT Report Version - select EC Sales List Report Version</li>
+<li>VAT Report Type</li>
+</ol>
+<ul>
+<li>Corrective - for VAT Statement Appendix VAT3</li>
+</ul>
+<ol start="4">
+<li>Original Report No. - enter &quot;ECSL-0001&quot;</li>
+<li>Period Year - enter &quot;2020</li>
+<li>Period Type - select &quot;Month&quot;</li>
+<li>Period No. - enter &quot;4&quot;
+<img src="images/us_vat_EC_gen002.png" alt="alt"></li>
+</ol>
+<p><strong>Create Lines</strong></p>
+<ol>
+<li>In the Ribbon press &quot;Suggest Lines&quot; function
+<img src="images/vat_help_EC_Sugg001.png" alt="alt"></li>
+</ol>
+<p><strong>Analysis of Results</strong></p>
+<p>The following results are achieved:</p>
+<ul>
+<li>1st line - EU sales transaction with Customer, where B2B Goods were sold and included in the original report is fully cancelled with the same parameters as it was declared</li>
+<li>2nd line - new line is created, that includes previous posted amount and new posted amounts of EU sales transaction with Customer, where B2B Goods were sold</li>
+</ul>
+<p><img src="images/us_vat_EC_Cor_Sugg001.png" alt="alt"></p>
+<p><strong>Additional Explanation for lines created</strong></p>
+<ul>
+<li>Line No.- report Row No.</li>
+<li>Report No.  - indicates EC Sales List Report No.</li>
+<li>Country Code</li>
+<li>Customer VAT. Reg. No. - indicates Customer VAT Registration No.</li>
+<li>Total Value of Supplies</li>
+<li>Transaction Indicator - specifies B2B Goods or B2B Services</li>
+<li>Line Type - specifies whether the line is new, corrective or cancelled</li>
+</ul>
+<h3 id="print-vat-statement-appendix-3">Print VAT Statement Appendix 3</h3>
+<ol>
+<li>EC Sales List Report status needs to be set to Released, using &quot;Release&quot; button in the Ribbon.</li>
+<li>In the Ribbon press &quot;Print&quot;</li>
+<li>Select &quot;Prepared by&quot; - select &quot;AH&quot;- the responsible employee, who prepared the VAT Statement Appendix from the list of Employees. By selecting &quot;Prepared by&quot;, Employee card data are re-used: Name, Surname, Job title, Phone No.</li>
+<li>VAT Statement Appendix can be sent to Preview or printed as PDF, Excel, Word.
+<img src="images/vat_help_EC_print001.png" alt="alt">
+<img src="images/us_vat_EC_Cor_Print001.png" alt="alt"></li>
+</ol>
+<h3 id="submit-vat-statement-appendix-3-correction-of-eu-sale-disclosure">Submit VAT Statement Appendix 3 Correction of EU sale disclosure</h3>
+<ol>
+<li>EC Sales List Report status needs to be set to Released, using &quot;Release&quot; button in the Ribbon.</li>
+<li>In the Ribbon press &quot;Submit&quot;</li>
+<li>Select &quot;Prepared by&quot; - select &quot;AH&quot;- the responsible employee, who prepared the VAT Statement Appendix from the list of Employees. By selecting &quot;Prepared by&quot;, Employee card data are re-used: Name, Surname, Job title, Phone No.</li>
+<li>VAT Statement Appendix can be sent to Electronic Declaration System
+<img src="images/us_vat_EC_Cor_Subm001.png" alt="alt">
+<img src="images/us_vat_EC_Cor_Subm002.png" alt="alt"></li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/elva-bc-projects/Test-Help/_git/Test-Help?path=en-us/articles/vat/usage_scenarios.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © ELVA BALTIC
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Latvian Localization Help pages for Microsoft Dynamics 365 Business Central | Latvian Localization </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Latvian Localization Help pages for Microsoft Dynamics 365 Business Central | Latvian Localization ">
+    <meta name="generator" content="docfx 2.48.1.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="./images/elva_logo.jpg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="latvian-localization-help-pages-for-microsoft-">Latvian Localization Help pages for Microsoft Dynamics 365 Business Central</h1>
+
+<p>This help is hosted on GitHub pages at address: <a href="https://elva-d365bc.github.io/help">https://elva-d365bc.github.io/help</a></p>
+<p>Project is based on <a href="https://github.com/dotnet/docfx">DocFX solution</a></p>
+<h2 id="considerations">Considerations</h2>
+<h3 id="file-naming">File naming:</h3>
+<ul>
+<li>All file names must be in lowercase, contains only alpha numeric symbols</li>
+<li>File names must not contain national characters or space</li>
+</ul>
+<h3 id="folder-structure">Folder structure:</h3>
+<ul>
+<li><p>Root folder contains some config files for DocFx</p>
+</li>
+<li><p>Folder /images contains images used by all apps help</p>
+</li>
+<li><p>Folder /templates contains DocxFx templates for generating site and pdf files</p>
+</li>
+<li><p>Folder /articles contains all help files</p>
+</li>
+<li><p>Each app has separate subfolder under /articles</p>
+<ul>
+<li>base_and_invoices</li>
+<li>cash_management</li>
+<li>intrastat</li>
+<li>latvian_language</li>
+<li>vat</li>
+</ul>
+</li>
+</ul>
+<p>Folder /articles/support contains support files, such as customer terms and license agreement</p>
+<p>Each app folder should contain file toc.md with table of content and folder images, where should place images specific for this app help.</p>
+<h2 id="installation">Installation</h2>
+<p>To update and run site generated for this help You should install following components:</p>
+<ul>
+<li><a href="https://code.visualstudio.com/docs/setup/windows">Visual Studio Code</a></li>
+<li><a href="https://dotnet.github.io/docfx/">Doc FX compiler</a><br>
+Add path to DocFx folder to user environment variable Path</li>
+<li><a href="https://git-scm.com/download">Git VCS</a><br>
+If it not installed  to default path (Program Files...) You should specify path to git.exe in VSCode settings file, for example: &quot;git.path&quot;: &quot;d:/apps/git/bin/git.exe&quot;</li>
+</ul>
+<p>Useful links:</p>
+<ul>
+<li><a href="https://www.markdownguide.org/">Mark down syntax</a></li>
+<li><a href="https://word-to-markdown.herokuapp.com">Word to Markdown Convertor</a></li>
+<li><a href="https://www.rapidtables.com/convert/color/rgb-to-hex.html">RGB to HEX color convertor</a></li>
+</ul>
+<h2 id="spell-checking">Spell checking</h2>
+<p>To enable English spell checking install spell checker VS extension <a href="https://marketplace.visualstudio.com/items?itemName=ban.spellright">SpellRight</a> and select language in right bottom corner of VSCode.</p>
+<h2 id="images">Images</h2>
+<p>To include image in md file You should use link of following format:</p>
+<pre><code class="lang-markdown">![alt](images/image_file_namee.png)
+</code></pre>
+<h2 id="includes">Includes</h2>
+<p>Folder /articles/includes contains md files with reusable text. Each file should contain one line text, that can be used many times in different md files. To use include text in md files file use link of following format:</p>
+<pre><code class="lang-markdown">[!INCLUDE[nav_name](./articles/includes/incl_name.md)]
+</code></pre>
+<p>Where path to include file should be relative to current md file.</p>
+<h2 id="note-warningtipimportant">Note (Warning/Tip/Important)</h2>
+<p>You can use specially formatted blocks to pay user attention. These blocks format is following</p>
+<pre><code>&gt; [!NOTE]
+&gt; Some note content that shoul be formatted as note
+&gt; and the second line of note
+</code></pre>
+<p>Will formatted in following way:</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Some note content that should be formatted as note<br>
+and the second line of note</p>
+</div>
+<p>In place of NOTE you can use also following keywords:</p>
+<ul>
+<li>TIP</li>
+<li>WARNING</li>
+<li>IMPORTANT</li>
+<li>CAUTION</li>
+</ul>
+<h2 id="tables">Tables</h2>
+<p>Tables also can be formatted:</p>
+<pre><code>| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Tables</th>
+<th style="text-align: center;">Are</th>
+<th style="text-align: right;">Cool</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>col 3 is</td>
+<td style="text-align: center;">right-aligned</td>
+<td style="text-align: right;">$1600</td>
+</tr>
+<tr>
+<td>col 2 is</td>
+<td style="text-align: center;">centered</td>
+<td style="text-align: right;">$12</td>
+</tr>
+<tr>
+<td>zebra stripes</td>
+<td style="text-align: center;">are neat</td>
+<td style="text-align: right;">$1</td>
+</tr>
+</tbody>
+</table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/elva-bc-projects/Test-Help/_git/Test-Help?path=en-us/readme.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © ELVA BALTIC
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>
